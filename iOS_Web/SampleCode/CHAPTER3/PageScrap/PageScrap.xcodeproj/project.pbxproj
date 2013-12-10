@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		E91423AC13481B0B000B9BC2 /* CopySiteFiles */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E91423AD13481B0B000B9BC2 /* Build configuration list for PBXAggregateTarget "CopySiteFiles" */;
+			buildPhases = (
+				E9DD11801348774C00326B0A /* CopyFiles */,
+			);
+			dependencies = (
+			);
+			name = CopySiteFiles;
+			productName = CopySiteFiles;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		E914238B13480DA2000B9BC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E914238A13480DA2000B9BC2 /* UIKit.framework */; };
+		E914238D13480DA2000B9BC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E914238C13480DA2000B9BC2 /* Foundation.framework */; };
+		E914238F13480DA2000B9BC2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E914238E13480DA2000B9BC2 /* CoreGraphics.framework */; };
+		E914239513480DA2000B9BC2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E914239313480DA2000B9BC2 /* InfoPlist.strings */; };
+		E914239813480DA2000B9BC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E914239713480DA2000B9BC2 /* main.m */; };
+		E914239B13480DA2000B9BC2 /* PageScrapAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E914239A13480DA2000B9BC2 /* PageScrapAppDelegate.m */; };
+		E914239E13480DA2000B9BC2 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E914239C13480DA2000B9BC2 /* MainWindow.xib */; };
+		E91423A113480DA2000B9BC2 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E91423A013480DA2000B9BC2 /* RootViewController.m */; };
+		E91423A413480DA2000B9BC2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E91423A213480DA2000B9BC2 /* RootViewController.xib */; };
+		E9DD1182134878B400326B0A /* PageScrap.php in CopyFiles */ = {isa = PBXBuildFile; fileRef = E91423AB134816C4000B9BC2 /* PageScrap.php */; };
+		E9DD118613487BC500326B0A /* index.php in CopyFiles */ = {isa = PBXBuildFile; fileRef = E9DD118513487B1100326B0A /* index.php */; };
+		E9DD118813487BF600326B0A /* ShowInfo.php in CopyFiles */ = {isa = PBXBuildFile; fileRef = E9DD118713487BE400326B0A /* ShowInfo.php */; };
+		E9DD118A13487C5500326B0A /* RegisterTestData.php in CopyFiles */ = {isa = PBXBuildFile; fileRef = E9DD118913487C1700326B0A /* RegisterTestData.php */; };
+		E9FCA6B913487ED20055CDE1 /* doInsert.php in CopyFiles */ = {isa = PBXBuildFile; fileRef = E9FCA6B313487E4D0055CDE1 /* doInsert.php */; };
+		E9FCA6BA13487ED20055CDE1 /* doUpdate.php in CopyFiles */ = {isa = PBXBuildFile; fileRef = E9FCA6B513487E6E0055CDE1 /* doUpdate.php */; };
+		E9FCA6BB13487ED20055CDE1 /* doList.php in CopyFiles */ = {isa = PBXBuildFile; fileRef = E9FCA6B613487E8A0055CDE1 /* doList.php */; };
+		E9FCA6BC13487ED20055CDE1 /* doDelete.php in CopyFiles */ = {isa = PBXBuildFile; fileRef = E9FCA6B713487EA30055CDE1 /* doDelete.php */; };
+		E9FCA6BD13487ED20055CDE1 /* doGetDetail.php in CopyFiles */ = {isa = PBXBuildFile; fileRef = E9FCA6B813487EBE0055CDE1 /* doGetDetail.php */; };
+		E9FCA6C21348AC1A0055CDE1 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E9FCA6C11348AC1A0055CDE1 /* Settings.bundle */; };
+		E9FCA6C61348B2940055CDE1 /* ConnectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FCA6C41348B2940055CDE1 /* ConnectionViewController.m */; };
+		E9FCA6C71348B2940055CDE1 /* ConnectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9FCA6C51348B2940055CDE1 /* ConnectionViewController.xib */; };
+		E9FCA6CA1348B7AF0055CDE1 /* APIURL.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FCA6C91348B7AF0055CDE1 /* APIURL.m */; };
+		E9FCA6CE1348BA650055CDE1 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FCA6CC1348BA650055CDE1 /* DetailViewController.m */; };
+		E9FCA6CF1348BA650055CDE1 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9FCA6CD1348BA650055CDE1 /* DetailViewController.xib */; };
+		E9FCA6D81348C0730055CDE1 /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FCA6D61348C0730055CDE1 /* EditViewController.m */; };
+		E9FCA6D91348C0730055CDE1 /* EditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9FCA6D71348C0730055CDE1 /* EditViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9DD11831348799B00326B0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E914237D13480DA2000B9BC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E91423AC13481B0B000B9BC2;
+			remoteInfo = CopySiteFiles;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E9DD11801348774C00326B0A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /Library/WebServer/Documents/PageScrap/;
+			dstSubfolderSpec = 0;
+			files = (
+				E9FCA6B913487ED20055CDE1 /* doInsert.php in CopyFiles */,
+				E9FCA6BA13487ED20055CDE1 /* doUpdate.php in CopyFiles */,
+				E9FCA6BB13487ED20055CDE1 /* doList.php in CopyFiles */,
+				E9FCA6BC13487ED20055CDE1 /* doDelete.php in CopyFiles */,
+				E9FCA6BD13487ED20055CDE1 /* doGetDetail.php in CopyFiles */,
+				E9DD118A13487C5500326B0A /* RegisterTestData.php in CopyFiles */,
+				E9DD118813487BF600326B0A /* ShowInfo.php in CopyFiles */,
+				E9DD118613487BC500326B0A /* index.php in CopyFiles */,
+				E9DD1182134878B400326B0A /* PageScrap.php in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E914238613480DA2000B9BC2 /* PageScrap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PageScrap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E914238A13480DA2000B9BC2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E914238C13480DA2000B9BC2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E914238E13480DA2000B9BC2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E914239213480DA2000B9BC2 /* PageScrap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PageScrap-Info.plist"; sourceTree = "<group>"; };
+		E914239413480DA2000B9BC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E914239613480DA2000B9BC2 /* PageScrap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PageScrap-Prefix.pch"; sourceTree = "<group>"; };
+		E914239713480DA2000B9BC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E914239913480DA2000B9BC2 /* PageScrapAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageScrapAppDelegate.h; sourceTree = "<group>"; };
+		E914239A13480DA2000B9BC2 /* PageScrapAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageScrapAppDelegate.m; sourceTree = "<group>"; };
+		E914239D13480DA2000B9BC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E914239F13480DA2000B9BC2 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		E91423A013480DA2000B9BC2 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		E91423A313480DA2000B9BC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		E91423AB134816C4000B9BC2 /* PageScrap.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = PageScrap.php; sourceTree = "<group>"; };
+		E9DD118513487B1100326B0A /* index.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = index.php; sourceTree = "<group>"; };
+		E9DD118713487BE400326B0A /* ShowInfo.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = ShowInfo.php; sourceTree = "<group>"; };
+		E9DD118913487C1700326B0A /* RegisterTestData.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = RegisterTestData.php; sourceTree = "<group>"; };
+		E9FCA6B313487E4D0055CDE1 /* doInsert.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = doInsert.php; sourceTree = "<group>"; };
+		E9FCA6B513487E6E0055CDE1 /* doUpdate.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = doUpdate.php; sourceTree = "<group>"; };
+		E9FCA6B613487E8A0055CDE1 /* doList.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = doList.php; sourceTree = "<group>"; };
+		E9FCA6B713487EA30055CDE1 /* doDelete.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = doDelete.php; sourceTree = "<group>"; };
+		E9FCA6B813487EBE0055CDE1 /* doGetDetail.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = doGetDetail.php; sourceTree = "<group>"; };
+		E9FCA6C11348AC1A0055CDE1 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		E9FCA6C31348B2940055CDE1 /* ConnectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionViewController.h; sourceTree = "<group>"; };
+		E9FCA6C41348B2940055CDE1 /* ConnectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionViewController.m; sourceTree = "<group>"; };
+		E9FCA6C51348B2940055CDE1 /* ConnectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConnectionViewController.xib; sourceTree = "<group>"; };
+		E9FCA6C81348B7AF0055CDE1 /* APIURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIURL.h; sourceTree = "<group>"; };
+		E9FCA6C91348B7AF0055CDE1 /* APIURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIURL.m; sourceTree = "<group>"; };
+		E9FCA6CB1348BA650055CDE1 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		E9FCA6CC1348BA650055CDE1 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		E9FCA6CD1348BA650055CDE1 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		E9FCA6D51348C0720055CDE1 /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		E9FCA6D61348C0730055CDE1 /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		E9FCA6D71348C0730055CDE1 /* EditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E914238313480DA2000B9BC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E914238B13480DA2000B9BC2 /* UIKit.framework in Frameworks */,
+				E914238D13480DA2000B9BC2 /* Foundation.framework in Frameworks */,
+				E914238F13480DA2000B9BC2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E914237B13480DA2000B9BC2 = {
+			isa = PBXGroup;
+			children = (
+				E914239013480DA2000B9BC2 /* PageScrap */,
+				E914238913480DA2000B9BC2 /* Frameworks */,
+				E914238713480DA2000B9BC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E914238713480DA2000B9BC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E914238613480DA2000B9BC2 /* PageScrap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E914238913480DA2000B9BC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E914238A13480DA2000B9BC2 /* UIKit.framework */,
+				E914238C13480DA2000B9BC2 /* Foundation.framework */,
+				E914238E13480DA2000B9BC2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E914239013480DA2000B9BC2 /* PageScrap */ = {
+			isa = PBXGroup;
+			children = (
+				E91423AA134815AC000B9BC2 /* Site Files */,
+				E914239913480DA2000B9BC2 /* PageScrapAppDelegate.h */,
+				E914239A13480DA2000B9BC2 /* PageScrapAppDelegate.m */,
+				E914239C13480DA2000B9BC2 /* MainWindow.xib */,
+				E914239F13480DA2000B9BC2 /* RootViewController.h */,
+				E91423A013480DA2000B9BC2 /* RootViewController.m */,
+				E91423A213480DA2000B9BC2 /* RootViewController.xib */,
+				E914239113480DA2000B9BC2 /* Supporting Files */,
+				E9FCA6C31348B2940055CDE1 /* ConnectionViewController.h */,
+				E9FCA6C41348B2940055CDE1 /* ConnectionViewController.m */,
+				E9FCA6C51348B2940055CDE1 /* ConnectionViewController.xib */,
+				E9FCA6C81348B7AF0055CDE1 /* APIURL.h */,
+				E9FCA6C91348B7AF0055CDE1 /* APIURL.m */,
+				E9FCA6CB1348BA650055CDE1 /* DetailViewController.h */,
+				E9FCA6CC1348BA650055CDE1 /* DetailViewController.m */,
+				E9FCA6CD1348BA650055CDE1 /* DetailViewController.xib */,
+				E9FCA6D51348C0720055CDE1 /* EditViewController.h */,
+				E9FCA6D61348C0730055CDE1 /* EditViewController.m */,
+				E9FCA6D71348C0730055CDE1 /* EditViewController.xib */,
+			);
+			path = PageScrap;
+			sourceTree = "<group>";
+		};
+		E914239113480DA2000B9BC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E914239213480DA2000B9BC2 /* PageScrap-Info.plist */,
+				E914239313480DA2000B9BC2 /* InfoPlist.strings */,
+				E914239613480DA2000B9BC2 /* PageScrap-Prefix.pch */,
+				E914239713480DA2000B9BC2 /* main.m */,
+				E9FCA6C11348AC1A0055CDE1 /* Settings.bundle */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E91423AA134815AC000B9BC2 /* Site Files */ = {
+			isa = PBXGroup;
+			children = (
+				E91423AB134816C4000B9BC2 /* PageScrap.php */,
+				E9DD118513487B1100326B0A /* index.php */,
+				E9DD118713487BE400326B0A /* ShowInfo.php */,
+				E9DD118913487C1700326B0A /* RegisterTestData.php */,
+				E9FCA6B313487E4D0055CDE1 /* doInsert.php */,
+				E9FCA6B513487E6E0055CDE1 /* doUpdate.php */,
+				E9FCA6B613487E8A0055CDE1 /* doList.php */,
+				E9FCA6B713487EA30055CDE1 /* doDelete.php */,
+				E9FCA6B813487EBE0055CDE1 /* doGetDetail.php */,
+			);
+			name = "Site Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E914238513480DA2000B9BC2 /* PageScrap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E91423A713480DA2000B9BC2 /* Build configuration list for PBXNativeTarget "PageScrap" */;
+			buildPhases = (
+				E914238213480DA2000B9BC2 /* Sources */,
+				E914238313480DA2000B9BC2 /* Frameworks */,
+				E914238413480DA2000B9BC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9DD11841348799B00326B0A /* PBXTargetDependency */,
+			);
+			name = PageScrap;
+			productName = PageScrap;
+			productReference = E914238613480DA2000B9BC2 /* PageScrap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E914237D13480DA2000B9BC2 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = E914238013480DA2000B9BC2 /* Build configuration list for PBXProject "PageScrap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E914237B13480DA2000B9BC2;
+			productRefGroup = E914238713480DA2000B9BC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E914238513480DA2000B9BC2 /* PageScrap */,
+				E91423AC13481B0B000B9BC2 /* CopySiteFiles */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E914238413480DA2000B9BC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E914239513480DA2000B9BC2 /* InfoPlist.strings in Resources */,
+				E914239E13480DA2000B9BC2 /* MainWindow.xib in Resources */,
+				E91423A413480DA2000B9BC2 /* RootViewController.xib in Resources */,
+				E9FCA6C21348AC1A0055CDE1 /* Settings.bundle in Resources */,
+				E9FCA6C71348B2940055CDE1 /* ConnectionViewController.xib in Resources */,
+				E9FCA6CF1348BA650055CDE1 /* DetailViewController.xib in Resources */,
+				E9FCA6D91348C0730055CDE1 /* EditViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E914238213480DA2000B9BC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E914239813480DA2000B9BC2 /* main.m in Sources */,
+				E914239B13480DA2000B9BC2 /* PageScrapAppDelegate.m in Sources */,
+				E91423A113480DA2000B9BC2 /* RootViewController.m in Sources */,
+				E9FCA6C61348B2940055CDE1 /* ConnectionViewController.m in Sources */,
+				E9FCA6CA1348B7AF0055CDE1 /* APIURL.m in Sources */,
+				E9FCA6CE1348BA650055CDE1 /* DetailViewController.m in Sources */,
+				E9FCA6D81348C0730055CDE1 /* EditViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9DD11841348799B00326B0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E91423AC13481B0B000B9BC2 /* CopySiteFiles */;
+			targetProxy = E9DD11831348799B00326B0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E914239313480DA2000B9BC2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E914239413480DA2000B9BC2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E914239C13480DA2000B9BC2 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E914239D13480DA2000B9BC2 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		E91423A213480DA2000B9BC2 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E91423A313480DA2000B9BC2 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E91423A513480DA2000B9BC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E91423A613480DA2000B9BC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		E91423A813480DA2000B9BC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PageScrap/PageScrap-Prefix.pch";
+				INFOPLIST_FILE = "PageScrap/PageScrap-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E91423A913480DA2000B9BC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PageScrap/PageScrap-Prefix.pch";
+				INFOPLIST_FILE = "PageScrap/PageScrap-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E91423AE13481B0B000B9BC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E91423AF13481B0B000B9BC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E914238013480DA2000B9BC2 /* Build configuration list for PBXProject "PageScrap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E91423A513480DA2000B9BC2 /* Debug */,
+				E91423A613480DA2000B9BC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E91423A713480DA2000B9BC2 /* Build configuration list for PBXNativeTarget "PageScrap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E91423A813480DA2000B9BC2 /* Debug */,
+				E91423A913480DA2000B9BC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E91423AD13481B0B000B9BC2 /* Build configuration list for PBXAggregateTarget "CopySiteFiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E91423AE13481B0B000B9BC2 /* Debug */,
+				E91423AF13481B0B000B9BC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E914237D13480DA2000B9BC2 /* Project object */;
+}

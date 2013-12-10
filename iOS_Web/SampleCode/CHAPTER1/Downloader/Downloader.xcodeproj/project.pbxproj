@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E956777C1343807D00D58B0C /* DownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E956777A1343807D00D58B0C /* DownloadViewController.m */; };
+		E956777D1343807D00D58B0C /* DownloadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E956777B1343807D00D58B0C /* DownloadViewController.xib */; };
+		E9567782134387B000D58B0C /* ImageFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9567780134387B000D58B0C /* ImageFileViewController.m */; };
+		E9567783134387B000D58B0C /* ImageFileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9567781134387B000D58B0C /* ImageFileViewController.xib */; };
+		E9567787134391A900D58B0C /* AccountEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9567785134391A900D58B0C /* AccountEditViewController.m */; };
+		E9567788134391A900D58B0C /* AccountEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9567786134391A900D58B0C /* AccountEditViewController.xib */; };
+		E9E08426134228A200E93746 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9E08425134228A200E93746 /* UIKit.framework */; };
+		E9E08428134228A200E93746 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9E08427134228A200E93746 /* Foundation.framework */; };
+		E9E0842A134228A200E93746 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9E08429134228A200E93746 /* CoreGraphics.framework */; };
+		E9E08430134228A200E93746 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9E0842E134228A200E93746 /* InfoPlist.strings */; };
+		E9E08433134228A200E93746 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E08432134228A200E93746 /* main.m */; };
+		E9E08436134228A200E93746 /* DownloaderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E08435134228A200E93746 /* DownloaderAppDelegate.m */; };
+		E9E08439134228A200E93746 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9E08437134228A200E93746 /* MainWindow.xib */; };
+		E9E0843C134228A200E93746 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E0843B134228A200E93746 /* RootViewController.m */; };
+		E9E0843F134228A200E93746 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9E0843D134228A200E93746 /* RootViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E95677791343807D00D58B0C /* DownloadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadViewController.h; sourceTree = "<group>"; };
+		E956777A1343807D00D58B0C /* DownloadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadViewController.m; sourceTree = "<group>"; };
+		E956777B1343807D00D58B0C /* DownloadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DownloadViewController.xib; sourceTree = "<group>"; };
+		E956777F134387B000D58B0C /* ImageFileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageFileViewController.h; sourceTree = "<group>"; };
+		E9567780134387B000D58B0C /* ImageFileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageFileViewController.m; sourceTree = "<group>"; };
+		E9567781134387B000D58B0C /* ImageFileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageFileViewController.xib; sourceTree = "<group>"; };
+		E9567784134391A900D58B0C /* AccountEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountEditViewController.h; sourceTree = "<group>"; };
+		E9567785134391A900D58B0C /* AccountEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountEditViewController.m; sourceTree = "<group>"; };
+		E9567786134391A900D58B0C /* AccountEditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccountEditViewController.xib; sourceTree = "<group>"; };
+		E9E08421134228A200E93746 /* Downloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Downloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9E08425134228A200E93746 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E9E08427134228A200E93746 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E9E08429134228A200E93746 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E9E0842D134228A200E93746 /* Downloader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Downloader-Info.plist"; sourceTree = "<group>"; };
+		E9E0842F134228A200E93746 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E9E08431134228A200E93746 /* Downloader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Downloader-Prefix.pch"; sourceTree = "<group>"; };
+		E9E08432134228A200E93746 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9E08434134228A200E93746 /* DownloaderAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DownloaderAppDelegate.h; sourceTree = "<group>"; };
+		E9E08435134228A200E93746 /* DownloaderAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownloaderAppDelegate.m; sourceTree = "<group>"; };
+		E9E08438134228A200E93746 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E9E0843A134228A200E93746 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		E9E0843B134228A200E93746 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		E9E0843E134228A200E93746 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9E0841E134228A200E93746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9E08426134228A200E93746 /* UIKit.framework in Frameworks */,
+				E9E08428134228A200E93746 /* Foundation.framework in Frameworks */,
+				E9E0842A134228A200E93746 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9E08416134228A200E93746 = {
+			isa = PBXGroup;
+			children = (
+				E9E0842B134228A200E93746 /* Downloader */,
+				E9E08424134228A200E93746 /* Frameworks */,
+				E9E08422134228A200E93746 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9E08422134228A200E93746 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9E08421134228A200E93746 /* Downloader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9E08424134228A200E93746 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9E08425134228A200E93746 /* UIKit.framework */,
+				E9E08427134228A200E93746 /* Foundation.framework */,
+				E9E08429134228A200E93746 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9E0842B134228A200E93746 /* Downloader */ = {
+			isa = PBXGroup;
+			children = (
+				E9E08434134228A200E93746 /* DownloaderAppDelegate.h */,
+				E9E08435134228A200E93746 /* DownloaderAppDelegate.m */,
+				E9E08437134228A200E93746 /* MainWindow.xib */,
+				E9E0843A134228A200E93746 /* RootViewController.h */,
+				E9E0843B134228A200E93746 /* RootViewController.m */,
+				E9E0843D134228A200E93746 /* RootViewController.xib */,
+				E9E0842C134228A200E93746 /* Supporting Files */,
+				E95677791343807D00D58B0C /* DownloadViewController.h */,
+				E956777A1343807D00D58B0C /* DownloadViewController.m */,
+				E956777B1343807D00D58B0C /* DownloadViewController.xib */,
+				E956777F134387B000D58B0C /* ImageFileViewController.h */,
+				E9567780134387B000D58B0C /* ImageFileViewController.m */,
+				E9567781134387B000D58B0C /* ImageFileViewController.xib */,
+				E9567784134391A900D58B0C /* AccountEditViewController.h */,
+				E9567785134391A900D58B0C /* AccountEditViewController.m */,
+				E9567786134391A900D58B0C /* AccountEditViewController.xib */,
+			);
+			path = Downloader;
+			sourceTree = "<group>";
+		};
+		E9E0842C134228A200E93746 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9E0842D134228A200E93746 /* Downloader-Info.plist */,
+				E9E0842E134228A200E93746 /* InfoPlist.strings */,
+				E9E08431134228A200E93746 /* Downloader-Prefix.pch */,
+				E9E08432134228A200E93746 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9E08420134228A200E93746 /* Downloader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9E08442134228A200E93746 /* Build configuration list for PBXNativeTarget "Downloader" */;
+			buildPhases = (
+				E9E0841D134228A200E93746 /* Sources */,
+				E9E0841E134228A200E93746 /* Frameworks */,
+				E9E0841F134228A200E93746 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Downloader;
+			productName = Downloader;
+			productReference = E9E08421134228A200E93746 /* Downloader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9E08418134228A200E93746 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = E9E0841B134228A200E93746 /* Build configuration list for PBXProject "Downloader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E9E08416134228A200E93746;
+			productRefGroup = E9E08422134228A200E93746 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9E08420134228A200E93746 /* Downloader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9E0841F134228A200E93746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9E08430134228A200E93746 /* InfoPlist.strings in Resources */,
+				E9E08439134228A200E93746 /* MainWindow.xib in Resources */,
+				E9E0843F134228A200E93746 /* RootViewController.xib in Resources */,
+				E956777D1343807D00D58B0C /* DownloadViewController.xib in Resources */,
+				E9567783134387B000D58B0C /* ImageFileViewController.xib in Resources */,
+				E9567788134391A900D58B0C /* AccountEditViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9E0841D134228A200E93746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9E08433134228A200E93746 /* main.m in Sources */,
+				E9E08436134228A200E93746 /* DownloaderAppDelegate.m in Sources */,
+				E9E0843C134228A200E93746 /* RootViewController.m in Sources */,
+				E956777C1343807D00D58B0C /* DownloadViewController.m in Sources */,
+				E9567782134387B000D58B0C /* ImageFileViewController.m in Sources */,
+				E9567787134391A900D58B0C /* AccountEditViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E9E0842E134228A200E93746 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9E0842F134228A200E93746 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E9E08437134228A200E93746 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9E08438134228A200E93746 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		E9E0843D134228A200E93746 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9E0843E134228A200E93746 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9E08440134228A200E93746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E9E08441134228A200E93746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		E9E08443134228A200E93746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Downloader/Downloader-Prefix.pch";
+				INFOPLIST_FILE = "Downloader/Downloader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E9E08444134228A200E93746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Downloader/Downloader-Prefix.pch";
+				INFOPLIST_FILE = "Downloader/Downloader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9E0841B134228A200E93746 /* Build configuration list for PBXProject "Downloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9E08440134228A200E93746 /* Debug */,
+				E9E08441134228A200E93746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9E08442134228A200E93746 /* Build configuration list for PBXNativeTarget "Downloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9E08443134228A200E93746 /* Debug */,
+				E9E08444134228A200E93746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9E08418134228A200E93746 /* Project object */;
+}

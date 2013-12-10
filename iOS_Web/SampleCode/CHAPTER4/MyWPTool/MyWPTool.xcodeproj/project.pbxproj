@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E919FB901349F08900BAC831 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E919FB8F1349F08900BAC831 /* Settings.bundle */; };
+		E919FB94134A028800BAC831 /* XMLWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = E919FB93134A028800BAC831 /* XMLWriter.m */; };
+		E919FB97134A02C800BAC831 /* XMLParam.m in Sources */ = {isa = PBXBuildFile; fileRef = E919FB96134A02C800BAC831 /* XMLParam.m */; };
+		E919FB9A134A02F400BAC831 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = E919FB99134A02F400BAC831 /* XMLReader.m */; };
+		E919FB9E134A03EA00BAC831 /* ConnectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E919FB9C134A03EA00BAC831 /* ConnectionViewController.m */; };
+		E919FB9F134A03EA00BAC831 /* ConnectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E919FB9D134A03EA00BAC831 /* ConnectionViewController.xib */; };
+		E919FBA2134A083200BAC831 /* AlertViewAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = E919FBA1134A083200BAC831 /* AlertViewAddition.m */; };
+		E919FBA5134A085700BAC831 /* SharedParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = E919FBA4134A085700BAC831 /* SharedParameter.m */; };
+		E919FBA9134A0B9300BAC831 /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E919FBA7134A0B9200BAC831 /* EditViewController.m */; };
+		E919FBAA134A0B9300BAC831 /* EditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E919FBA8134A0B9200BAC831 /* EditViewController.xib */; };
+		E9FCA6EA1348CAAC0055CDE1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9FCA6E91348CAAC0055CDE1 /* UIKit.framework */; };
+		E9FCA6EC1348CAAC0055CDE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9FCA6EB1348CAAC0055CDE1 /* Foundation.framework */; };
+		E9FCA6EE1348CAAC0055CDE1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9FCA6ED1348CAAC0055CDE1 /* CoreGraphics.framework */; };
+		E9FCA6F41348CAAD0055CDE1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9FCA6F21348CAAD0055CDE1 /* InfoPlist.strings */; };
+		E9FCA6F71348CAAD0055CDE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FCA6F61348CAAD0055CDE1 /* main.m */; };
+		E9FCA6FA1348CAAD0055CDE1 /* MyWPToolAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FCA6F91348CAAD0055CDE1 /* MyWPToolAppDelegate.m */; };
+		E9FCA6FD1348CAAD0055CDE1 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9FCA6FB1348CAAD0055CDE1 /* MainWindow.xib */; };
+		E9FCA7001348CAAD0055CDE1 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FCA6FF1348CAAD0055CDE1 /* RootViewController.m */; };
+		E9FCA7031348CAAD0055CDE1 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9FCA7011348CAAD0055CDE1 /* RootViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E919FB8F1349F08900BAC831 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		E919FB92134A028800BAC831 /* XMLWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLWriter.h; sourceTree = "<group>"; };
+		E919FB93134A028800BAC831 /* XMLWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLWriter.m; sourceTree = "<group>"; };
+		E919FB95134A02C800BAC831 /* XMLParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParam.h; sourceTree = "<group>"; };
+		E919FB96134A02C800BAC831 /* XMLParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParam.m; sourceTree = "<group>"; };
+		E919FB98134A02F400BAC831 /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
+		E919FB99134A02F400BAC831 /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
+		E919FB9B134A03EA00BAC831 /* ConnectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionViewController.h; sourceTree = "<group>"; };
+		E919FB9C134A03EA00BAC831 /* ConnectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionViewController.m; sourceTree = "<group>"; };
+		E919FB9D134A03EA00BAC831 /* ConnectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConnectionViewController.xib; sourceTree = "<group>"; };
+		E919FBA0134A083200BAC831 /* AlertViewAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertViewAddition.h; sourceTree = "<group>"; };
+		E919FBA1134A083200BAC831 /* AlertViewAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertViewAddition.m; sourceTree = "<group>"; };
+		E919FBA3134A085700BAC831 /* SharedParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedParameter.h; sourceTree = "<group>"; };
+		E919FBA4134A085700BAC831 /* SharedParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedParameter.m; sourceTree = "<group>"; };
+		E919FBA6134A0B9200BAC831 /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		E919FBA7134A0B9200BAC831 /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		E919FBA8134A0B9200BAC831 /* EditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditViewController.xib; sourceTree = "<group>"; };
+		E9FCA6E51348CAAC0055CDE1 /* MyWPTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWPTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9FCA6E91348CAAC0055CDE1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E9FCA6EB1348CAAC0055CDE1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E9FCA6ED1348CAAC0055CDE1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E9FCA6F11348CAAD0055CDE1 /* MyWPTool-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyWPTool-Info.plist"; sourceTree = "<group>"; };
+		E9FCA6F31348CAAD0055CDE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E9FCA6F51348CAAD0055CDE1 /* MyWPTool-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyWPTool-Prefix.pch"; sourceTree = "<group>"; };
+		E9FCA6F61348CAAD0055CDE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9FCA6F81348CAAD0055CDE1 /* MyWPToolAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyWPToolAppDelegate.h; sourceTree = "<group>"; };
+		E9FCA6F91348CAAD0055CDE1 /* MyWPToolAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyWPToolAppDelegate.m; sourceTree = "<group>"; };
+		E9FCA6FC1348CAAD0055CDE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E9FCA6FE1348CAAD0055CDE1 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		E9FCA6FF1348CAAD0055CDE1 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		E9FCA7021348CAAD0055CDE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9FCA6E21348CAAC0055CDE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9FCA6EA1348CAAC0055CDE1 /* UIKit.framework in Frameworks */,
+				E9FCA6EC1348CAAC0055CDE1 /* Foundation.framework in Frameworks */,
+				E9FCA6EE1348CAAC0055CDE1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9FCA6DA1348CAAC0055CDE1 = {
+			isa = PBXGroup;
+			children = (
+				E9FCA6EF1348CAAC0055CDE1 /* MyWPTool */,
+				E9FCA6E81348CAAC0055CDE1 /* Frameworks */,
+				E9FCA6E61348CAAC0055CDE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9FCA6E61348CAAC0055CDE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9FCA6E51348CAAC0055CDE1 /* MyWPTool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9FCA6E81348CAAC0055CDE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9FCA6E91348CAAC0055CDE1 /* UIKit.framework */,
+				E9FCA6EB1348CAAC0055CDE1 /* Foundation.framework */,
+				E9FCA6ED1348CAAC0055CDE1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9FCA6EF1348CAAC0055CDE1 /* MyWPTool */ = {
+			isa = PBXGroup;
+			children = (
+				E919FB9B134A03EA00BAC831 /* ConnectionViewController.h */,
+				E919FB9C134A03EA00BAC831 /* ConnectionViewController.m */,
+				E919FB9D134A03EA00BAC831 /* ConnectionViewController.xib */,
+				E9FCA6F81348CAAD0055CDE1 /* MyWPToolAppDelegate.h */,
+				E9FCA6F91348CAAD0055CDE1 /* MyWPToolAppDelegate.m */,
+				E9FCA6FB1348CAAD0055CDE1 /* MainWindow.xib */,
+				E9FCA6FE1348CAAD0055CDE1 /* RootViewController.h */,
+				E9FCA6FF1348CAAD0055CDE1 /* RootViewController.m */,
+				E9FCA7011348CAAD0055CDE1 /* RootViewController.xib */,
+				E9FCA6F01348CAAD0055CDE1 /* Supporting Files */,
+				E919FB92134A028800BAC831 /* XMLWriter.h */,
+				E919FB93134A028800BAC831 /* XMLWriter.m */,
+				E919FB95134A02C800BAC831 /* XMLParam.h */,
+				E919FB96134A02C800BAC831 /* XMLParam.m */,
+				E919FB98134A02F400BAC831 /* XMLReader.h */,
+				E919FB99134A02F400BAC831 /* XMLReader.m */,
+				E919FBA0134A083200BAC831 /* AlertViewAddition.h */,
+				E919FBA1134A083200BAC831 /* AlertViewAddition.m */,
+				E919FBA3134A085700BAC831 /* SharedParameter.h */,
+				E919FBA4134A085700BAC831 /* SharedParameter.m */,
+				E919FBA6134A0B9200BAC831 /* EditViewController.h */,
+				E919FBA7134A0B9200BAC831 /* EditViewController.m */,
+				E919FBA8134A0B9200BAC831 /* EditViewController.xib */,
+			);
+			path = MyWPTool;
+			sourceTree = "<group>";
+		};
+		E9FCA6F01348CAAD0055CDE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9FCA6F11348CAAD0055CDE1 /* MyWPTool-Info.plist */,
+				E9FCA6F21348CAAD0055CDE1 /* InfoPlist.strings */,
+				E9FCA6F51348CAAD0055CDE1 /* MyWPTool-Prefix.pch */,
+				E9FCA6F61348CAAD0055CDE1 /* main.m */,
+				E919FB8F1349F08900BAC831 /* Settings.bundle */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9FCA6E41348CAAC0055CDE1 /* MyWPTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9FCA7061348CAAD0055CDE1 /* Build configuration list for PBXNativeTarget "MyWPTool" */;
+			buildPhases = (
+				E9FCA6E11348CAAC0055CDE1 /* Sources */,
+				E9FCA6E21348CAAC0055CDE1 /* Frameworks */,
+				E9FCA6E31348CAAC0055CDE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyWPTool;
+			productName = MyWPTool;
+			productReference = E9FCA6E51348CAAC0055CDE1 /* MyWPTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9FCA6DC1348CAAC0055CDE1 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = E9FCA6DF1348CAAC0055CDE1 /* Build configuration list for PBXProject "MyWPTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E9FCA6DA1348CAAC0055CDE1;
+			productRefGroup = E9FCA6E61348CAAC0055CDE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9FCA6E41348CAAC0055CDE1 /* MyWPTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9FCA6E31348CAAC0055CDE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9FCA6F41348CAAD0055CDE1 /* InfoPlist.strings in Resources */,
+				E9FCA6FD1348CAAD0055CDE1 /* MainWindow.xib in Resources */,
+				E9FCA7031348CAAD0055CDE1 /* RootViewController.xib in Resources */,
+				E919FB901349F08900BAC831 /* Settings.bundle in Resources */,
+				E919FB9F134A03EA00BAC831 /* ConnectionViewController.xib in Resources */,
+				E919FBAA134A0B9300BAC831 /* EditViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9FCA6E11348CAAC0055CDE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9FCA6F71348CAAD0055CDE1 /* main.m in Sources */,
+				E9FCA6FA1348CAAD0055CDE1 /* MyWPToolAppDelegate.m in Sources */,
+				E9FCA7001348CAAD0055CDE1 /* RootViewController.m in Sources */,
+				E919FB94134A028800BAC831 /* XMLWriter.m in Sources */,
+				E919FB97134A02C800BAC831 /* XMLParam.m in Sources */,
+				E919FB9A134A02F400BAC831 /* XMLReader.m in Sources */,
+				E919FB9E134A03EA00BAC831 /* ConnectionViewController.m in Sources */,
+				E919FBA2134A083200BAC831 /* AlertViewAddition.m in Sources */,
+				E919FBA5134A085700BAC831 /* SharedParameter.m in Sources */,
+				E919FBA9134A0B9300BAC831 /* EditViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E9FCA6F21348CAAD0055CDE1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9FCA6F31348CAAD0055CDE1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E9FCA6FB1348CAAD0055CDE1 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9FCA6FC1348CAAD0055CDE1 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		E9FCA7011348CAAD0055CDE1 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9FCA7021348CAAD0055CDE1 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9FCA7041348CAAD0055CDE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E9FCA7051348CAAD0055CDE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		E9FCA7071348CAAD0055CDE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyWPTool/MyWPTool-Prefix.pch";
+				INFOPLIST_FILE = "MyWPTool/MyWPTool-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E9FCA7081348CAAD0055CDE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyWPTool/MyWPTool-Prefix.pch";
+				INFOPLIST_FILE = "MyWPTool/MyWPTool-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9FCA6DF1348CAAC0055CDE1 /* Build configuration list for PBXProject "MyWPTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9FCA7041348CAAD0055CDE1 /* Debug */,
+				E9FCA7051348CAAD0055CDE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9FCA7061348CAAD0055CDE1 /* Build configuration list for PBXNativeTarget "MyWPTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9FCA7071348CAAD0055CDE1 /* Debug */,
+				E9FCA7081348CAAD0055CDE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9FCA6DC1348CAAC0055CDE1 /* Project object */;
+}

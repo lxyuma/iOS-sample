@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E92F87C3134A1E64001A570A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E92F87C2134A1E64001A570A /* CoreLocation.framework */; };
+		E92F87C7134A2244001A570A /* MyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = E92F87C6134A2244001A570A /* MyAnnotation.m */; };
+		E92F87C9134A2385001A570A /* start_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E92F87C8134A2385001A570A /* start_icon.png */; };
+		E92F87CD134A28ED001A570A /* PlaceInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E92F87CB134A28EC001A570A /* PlaceInfoViewController.m */; };
+		E92F87CE134A28ED001A570A /* PlaceInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E92F87CC134A28EC001A570A /* PlaceInfoViewController.xib */; };
+		E9F077F0134A187600F9FA78 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F077EF134A187600F9FA78 /* UIKit.framework */; };
+		E9F077F2134A187600F9FA78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F077F1134A187600F9FA78 /* Foundation.framework */; };
+		E9F077F4134A187600F9FA78 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F077F3134A187600F9FA78 /* CoreGraphics.framework */; };
+		E9F077FA134A187600F9FA78 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9F077F8134A187600F9FA78 /* InfoPlist.strings */; };
+		E9F077FD134A187600F9FA78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F077FC134A187600F9FA78 /* main.m */; };
+		E9F07800134A187600F9FA78 /* MapTrackingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F077FF134A187600F9FA78 /* MapTrackingAppDelegate.m */; };
+		E9F07803134A187600F9FA78 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9F07801134A187600F9FA78 /* MainWindow.xib */; };
+		E9F07806134A187600F9FA78 /* MapTrackingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F07805134A187600F9FA78 /* MapTrackingViewController.m */; };
+		E9F07809134A187600F9FA78 /* MapTrackingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9F07807134A187600F9FA78 /* MapTrackingViewController.xib */; };
+		E9F07818134A1A6B00F9FA78 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F07817134A1A6B00F9FA78 /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E92F87C2134A1E64001A570A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E92F87C5134A2244001A570A /* MyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAnnotation.h; sourceTree = "<group>"; };
+		E92F87C6134A2244001A570A /* MyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAnnotation.m; sourceTree = "<group>"; };
+		E92F87C8134A2385001A570A /* start_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start_icon.png; sourceTree = "<group>"; };
+		E92F87CA134A28EC001A570A /* PlaceInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceInfoViewController.h; sourceTree = "<group>"; };
+		E92F87CB134A28EC001A570A /* PlaceInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceInfoViewController.m; sourceTree = "<group>"; };
+		E92F87CC134A28EC001A570A /* PlaceInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlaceInfoViewController.xib; sourceTree = "<group>"; };
+		E9F077EB134A187600F9FA78 /* MapTracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapTracking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F077EF134A187600F9FA78 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E9F077F1134A187600F9FA78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E9F077F3134A187600F9FA78 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E9F077F7134A187600F9FA78 /* MapTracking-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MapTracking-Info.plist"; sourceTree = "<group>"; };
+		E9F077F9134A187600F9FA78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E9F077FB134A187600F9FA78 /* MapTracking-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MapTracking-Prefix.pch"; sourceTree = "<group>"; };
+		E9F077FC134A187600F9FA78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9F077FE134A187600F9FA78 /* MapTrackingAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapTrackingAppDelegate.h; sourceTree = "<group>"; };
+		E9F077FF134A187600F9FA78 /* MapTrackingAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapTrackingAppDelegate.m; sourceTree = "<group>"; };
+		E9F07802134A187600F9FA78 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E9F07804134A187600F9FA78 /* MapTrackingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapTrackingViewController.h; sourceTree = "<group>"; };
+		E9F07805134A187600F9FA78 /* MapTrackingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapTrackingViewController.m; sourceTree = "<group>"; };
+		E9F07808134A187600F9FA78 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MapTrackingViewController.xib; sourceTree = "<group>"; };
+		E9F07817134A1A6B00F9FA78 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9F077E8134A187600F9FA78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E92F87C3134A1E64001A570A /* CoreLocation.framework in Frameworks */,
+				E9F07818134A1A6B00F9FA78 /* MapKit.framework in Frameworks */,
+				E9F077F0134A187600F9FA78 /* UIKit.framework in Frameworks */,
+				E9F077F2134A187600F9FA78 /* Foundation.framework in Frameworks */,
+				E9F077F4134A187600F9FA78 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9F077E0134A187600F9FA78 = {
+			isa = PBXGroup;
+			children = (
+				E9F077F5134A187600F9FA78 /* MapTracking */,
+				E9F077EE134A187600F9FA78 /* Frameworks */,
+				E9F077EC134A187600F9FA78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9F077EC134A187600F9FA78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9F077EB134A187600F9FA78 /* MapTracking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9F077EE134A187600F9FA78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E92F87C2134A1E64001A570A /* CoreLocation.framework */,
+				E9F07817134A1A6B00F9FA78 /* MapKit.framework */,
+				E9F077EF134A187600F9FA78 /* UIKit.framework */,
+				E9F077F1134A187600F9FA78 /* Foundation.framework */,
+				E9F077F3134A187600F9FA78 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9F077F5134A187600F9FA78 /* MapTracking */ = {
+			isa = PBXGroup;
+			children = (
+				E9F077FE134A187600F9FA78 /* MapTrackingAppDelegate.h */,
+				E9F077FF134A187600F9FA78 /* MapTrackingAppDelegate.m */,
+				E9F07801134A187600F9FA78 /* MainWindow.xib */,
+				E9F07804134A187600F9FA78 /* MapTrackingViewController.h */,
+				E9F07805134A187600F9FA78 /* MapTrackingViewController.m */,
+				E9F07807134A187600F9FA78 /* MapTrackingViewController.xib */,
+				E9F077F6134A187600F9FA78 /* Supporting Files */,
+				E92F87C5134A2244001A570A /* MyAnnotation.h */,
+				E92F87C6134A2244001A570A /* MyAnnotation.m */,
+				E92F87CA134A28EC001A570A /* PlaceInfoViewController.h */,
+				E92F87CB134A28EC001A570A /* PlaceInfoViewController.m */,
+				E92F87CC134A28EC001A570A /* PlaceInfoViewController.xib */,
+			);
+			path = MapTracking;
+			sourceTree = "<group>";
+		};
+		E9F077F6134A187600F9FA78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E92F87C8134A2385001A570A /* start_icon.png */,
+				E9F077F7134A187600F9FA78 /* MapTracking-Info.plist */,
+				E9F077F8134A187600F9FA78 /* InfoPlist.strings */,
+				E9F077FB134A187600F9FA78 /* MapTracking-Prefix.pch */,
+				E9F077FC134A187600F9FA78 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9F077EA134A187600F9FA78 /* MapTracking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9F0780C134A187600F9FA78 /* Build configuration list for PBXNativeTarget "MapTracking" */;
+			buildPhases = (
+				E9F077E7134A187600F9FA78 /* Sources */,
+				E9F077E8134A187600F9FA78 /* Frameworks */,
+				E9F077E9134A187600F9FA78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapTracking;
+			productName = MapTracking;
+			productReference = E9F077EB134A187600F9FA78 /* MapTracking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9F077E2134A187600F9FA78 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = E9F077E5134A187600F9FA78 /* Build configuration list for PBXProject "MapTracking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E9F077E0134A187600F9FA78;
+			productRefGroup = E9F077EC134A187600F9FA78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9F077EA134A187600F9FA78 /* MapTracking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9F077E9134A187600F9FA78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F077FA134A187600F9FA78 /* InfoPlist.strings in Resources */,
+				E9F07803134A187600F9FA78 /* MainWindow.xib in Resources */,
+				E9F07809134A187600F9FA78 /* MapTrackingViewController.xib in Resources */,
+				E92F87C9134A2385001A570A /* start_icon.png in Resources */,
+				E92F87CE134A28ED001A570A /* PlaceInfoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9F077E7134A187600F9FA78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F077FD134A187600F9FA78 /* main.m in Sources */,
+				E9F07800134A187600F9FA78 /* MapTrackingAppDelegate.m in Sources */,
+				E9F07806134A187600F9FA78 /* MapTrackingViewController.m in Sources */,
+				E92F87C7134A2244001A570A /* MyAnnotation.m in Sources */,
+				E92F87CD134A28ED001A570A /* PlaceInfoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E9F077F8134A187600F9FA78 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9F077F9134A187600F9FA78 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E9F07801134A187600F9FA78 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9F07802134A187600F9FA78 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		E9F07807134A187600F9FA78 /* MapTrackingViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9F07808134A187600F9FA78 /* en */,
+			);
+			name = MapTrackingViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9F0780A134A187600F9FA78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E9F0780B134A187600F9FA78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		E9F0780D134A187600F9FA78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MapTracking/MapTracking-Prefix.pch";
+				INFOPLIST_FILE = "MapTracking/MapTracking-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E9F0780E134A187600F9FA78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MapTracking/MapTracking-Prefix.pch";
+				INFOPLIST_FILE = "MapTracking/MapTracking-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9F077E5134A187600F9FA78 /* Build configuration list for PBXProject "MapTracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F0780A134A187600F9FA78 /* Debug */,
+				E9F0780B134A187600F9FA78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9F0780C134A187600F9FA78 /* Build configuration list for PBXNativeTarget "MapTracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F0780D134A187600F9FA78 /* Debug */,
+				E9F0780E134A187600F9FA78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9F077E2134A187600F9FA78 /* Project object */;
+}

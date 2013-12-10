@@ -1,0 +1,976 @@
+TSearchStation
+v4
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app/Info.plist SearchStation/SearchStation-Info.plist
+cProcessPCH /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/PrecompiledHeaders/SearchStation-Prefix-gdvkevmjnvkgbmfioeikkhwmcbkd/SearchStation-Prefix.pch.pth SearchStation/SearchStation-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/PrecompiledHeaders/SearchStation-Prefix-eyurlvnnqvvaaneeeknlsxtuxgtu/SearchStation-Prefix.pch.pth SearchStation/SearchStation-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+cCompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/main.o /Users/seminar/Documents/iPhone/SearchStation/SearchStation/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SSAppDelegate.o /Users/seminar/Documents/iPhone/SearchStation/SearchStation/SSAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/PinAnnotation.o /Users/seminar/Documents/iPhone/SearchStation/SearchStation/PinAnnotation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SSViewController.o /Users/seminar/Documents/iPhone/SearchStation/SearchStation/SSViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/ConnectionManager.o /Users/seminar/Documents/iPhone/SearchStation/SearchStation/ConnectionManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/NSObject+SBJson.o /Users/seminar/Documents/iPhone/SearchStation/Classes/NSObject+SBJson.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonParser.o /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonStreamParser.o /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonStreamParserAccumulator.o /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParserAccumulator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonStreamParserAdapter.o /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParserAdapter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonStreamParserState.o /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParserState.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonStreamWriter.o /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamWriter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonStreamWriterAccumulator.o /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamWriterAccumulator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonStreamWriterState.o /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamWriterState.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonTokeniser.o /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonTokeniser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonUTF8Stream.o /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonUTF8Stream.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cAnalyze /Users/seminar/Documents/iPhone/SearchStation/SearchStation/main.m
+cCompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonWriter.o /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonWriter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cAnalyze /Users/seminar/Documents/iPhone/SearchStation/SearchStation/SSViewController.m
+cAnalyze /Users/seminar/Documents/iPhone/SearchStation/SearchStation/SSAppDelegate.m
+cAnalyze /Users/seminar/Documents/iPhone/SearchStation/SearchStation/PinAnnotation.m
+cAnalyze /Users/seminar/Documents/iPhone/SearchStation/SearchStation/ConnectionManager.m
+cAnalyze /Users/seminar/Documents/iPhone/SearchStation/Classes/NSObject+SBJson.m
+cAnalyze /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonParser.m
+cAnalyze /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParserAccumulator.m
+cAnalyze /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParser.m
+cAnalyze /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParserAdapter.m
+cAnalyze /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParserState.m
+cAnalyze /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamWriter.m
+cLd /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app/SearchStation normal i386
+cAnalyze /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamWriterAccumulator.m
+cAnalyze /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamWriterState.m
+cAnalyze /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonTokeniser.m
+cAnalyze /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonUTF8Stream.m
+cAnalyze /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonWriter.m
+cGenerateDSYMFile /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app.dSYM /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app/SearchStation
+cCompileXIB /Users/seminar/Documents/iPhone/SearchStation/SearchStation/en.lproj/SSViewController.xib
+cCopyStringsFile /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app/en.lproj/InfoPlist.strings SearchStation/en.lproj/InfoPlist.strings
+cCpResource SearchStation/06-magnify.png test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app/06-magnify.png
+cCpResource SearchStation/07-map-marker.png test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app/07-map-marker.png
+cTouch /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk
+c00000000504EC67D0000000000000110
+t1347339901
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004E72F1CC0000000000245480
+t1316155852
+s2380928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004E78059F00000000000859A0
+t1316488607
+s547232
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004E72F2960000000000353830
+t1316156054
+s3487792
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004E7807EF00000000000D89E0
+t1316489199
+s887264
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004E7806AB00000000008F7390
+t1316488875
+s9401232
+
+N/Users/seminar/Documents/iPhone/SearchStation/Classes/NSObject+SBJson.h
+c000000004E57F3E200000000000008B7
+t1314386914
+s2231
+
+N/Users/seminar/Documents/iPhone/SearchStation/Classes/NSObject+SBJson.m
+c000000004E57F3E200000000000008A6
+t1314386914
+s2214
+
+N/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonParser.h
+c000000004E57F3E20000000000000E0B
+t1314386914
+s3595
+
+N/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonParser.m
+c000000004E57F3E20000000000000CC0
+t1314386914
+s3264
+
+N/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParser.h
+c000000004E57F3E20000000000001611
+t1314386914
+s5649
+
+N/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParser.m
+c000000004E57F3E200000000000020CC
+t1314386914
+s8396
+
+N/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParserAccumulator.h
+c000000004E57F3E200000000000006D7
+t1314386914
+s1751
+
+N/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParserAccumulator.m
+c000000004E57F3E2000000000000079B
+t1314386914
+s1947
+
+N/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParserAdapter.h
+c000000004E57F3E20000000000001467
+t1314386914
+s5223
+
+N/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParserAdapter.m
+c000000004E57F3E200000000000011C9
+t1314386914
+s4553
+
+N/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParserState.h
+c000000004E57F3E20000000000000B10
+t1314386914
+s2832
+
+N/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParserState.m
+c000000004E57F3E20000000000001F6D
+t1314386914
+s8045
+
+N/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamWriter.h
+c000000004E57F3E200000000000016CF
+t1314386914
+s5839
+
+N/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamWriter.m
+c000000004E57F3E200000000000029A2
+t1314386914
+s10658
+
+N/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamWriterAccumulator.h
+c000000004E57F3E200000000000006B2
+t1314386914
+s1714
+
+N/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamWriterAccumulator.m
+c000000004E57F3E200000000000007EB
+t1314386914
+s2027
+
+N/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamWriterState.h
+c000000004E57F3E200000000000009EC
+t1314386914
+s2540
+
+N/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamWriterState.m
+c000000004E57F3E20000000000000F61
+t1314386914
+s3937
+
+N/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonTokeniser.h
+c000000004E57F3E2000000000000089C
+t1314386914
+s2204
+
+N/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonTokeniser.m
+c000000004E57F3E200000000000033EE
+t1314386914
+s13294
+
+N/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonUTF8Stream.h
+c000000004E57F3E20000000000000835
+t1314386914
+s2101
+
+N/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonUTF8Stream.m
+c000000004E57F3E20000000000000F21
+t1314386914
+s3873
+
+N/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonWriter.h
+c000000004E57F3E200000000000010B6
+t1314386914
+s4278
+
+N/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonWriter.m
+c000000004E57F3E20000000000000DBF
+t1314386914
+s3519
+
+N/Users/seminar/Documents/iPhone/SearchStation/SearchStation/06-magnify.png
+c000000004CB7D3CA0000000000000CAB
+t1287115722
+s3243
+
+N/Users/seminar/Documents/iPhone/SearchStation/SearchStation/07-map-marker.png
+c000000004CB7D3CA0000000000000C3B
+t1287115722
+s3131
+
+N/Users/seminar/Documents/iPhone/SearchStation/SearchStation/ConnectionManager.h
+c00000000509F3D4000000000000001E9
+t1352613184
+s489
+
+N/Users/seminar/Documents/iPhone/SearchStation/SearchStation/ConnectionManager.m
+c00000000509F40480000000000000701
+t1352613960
+s1793
+
+N/Users/seminar/Documents/iPhone/SearchStation/SearchStation/PinAnnotation.h
+c0000000050A8F103000000000000032D
+t1353249027
+s813
+
+N/Users/seminar/Documents/iPhone/SearchStation/SearchStation/PinAnnotation.m
+c0000000050A8F1030000000000000387
+t1353249027
+s903
+
+N/Users/seminar/Documents/iPhone/SearchStation/SearchStation/SSAppDelegate.h
+c0000000050A8B4710000000000000181
+t1353233521
+s385
+
+N/Users/seminar/Documents/iPhone/SearchStation/SearchStation/SSAppDelegate.m
+c0000000050A8B4710000000000000A28
+t1353233521
+s2600
+
+N/Users/seminar/Documents/iPhone/SearchStation/SearchStation/SSViewController.h
+c0000000050AB5CAA0000000000000338
+t1353407658
+s824
+
+N/Users/seminar/Documents/iPhone/SearchStation/SearchStation/SSViewController.m
+c0000000050AB5FDC000000000000229C
+t1353408476
+s8860
+
+N/Users/seminar/Documents/iPhone/SearchStation/SearchStation/SearchStation-Prefix.pch
+c0000000050A8B4710000000000000149
+t1353233521
+s329
+
+N/Users/seminar/Documents/iPhone/SearchStation/SearchStation/en.lproj/InfoPlist.strings
+c0000000050A8B471000000000000002D
+t1353233521
+s45
+
+N/Users/seminar/Documents/iPhone/SearchStation/SearchStation/en.lproj/SSViewController.xib
+c0000000050AA332400000000000033B9
+t1353331492
+s13241
+
+N/Users/seminar/Documents/iPhone/SearchStation/SearchStation/main.m
+c0000000050A8B4710000000000000161
+t1353233521
+s353
+
+N/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/ConnectionManager.o
+t1353322874
+s10556
+
+N/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/NSObject+SBJson.o
+t1353322874
+s6156
+
+N/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/PinAnnotation.o
+t1353322874
+s11260
+
+N/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonParser.o
+t1353322874
+s13820
+
+N/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonStreamParser.o
+t1353322874
+s24808
+
+N/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonStreamParserAccumulator.o
+t1353322874
+s8000
+
+N/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonStreamParserAdapter.o
+t1353322874
+s21228
+
+N/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonStreamParserState.o
+t1353322874
+s42608
+
+N/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonStreamWriter.o
+t1353322874
+s39436
+
+N/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonStreamWriterAccumulator.o
+t1353322874
+s8280
+
+N/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonStreamWriterState.o
+t1353322874
+s24996
+
+N/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonTokeniser.o
+t1353322874
+s24448
+
+N/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonUTF8Stream.o
+t1353322874
+s14248
+
+N/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonWriter.o
+t1353322874
+s15960
+
+N/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SSAppDelegate.o
+t1353407659
+s52860
+
+N/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SSViewController.o
+t1353408476
+s74708
+
+N/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SearchStation.LinkFileList
+c0000000050AA117A0000000000000C74
+t1353322874
+s3188
+
+N/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/main.o
+t1353322874
+s2596
+
+N/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/ConnectionManager.plist
+t1353322888
+s276
+
+N/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/NSObject+SBJson.plist
+t1353322888
+s276
+
+N/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/PinAnnotation.plist
+t1353322888
+s276
+
+N/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/SBJsonParser.plist
+t1353322888
+s1581
+
+N/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/SBJsonStreamParser.plist
+t1353322888
+s276
+
+N/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/SBJsonStreamParserAccumulator.plist
+t1353322888
+s276
+
+N/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/SBJsonStreamParserAdapter.plist
+t1353322888
+s276
+
+N/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/SBJsonStreamParserState.plist
+t1353322888
+s276
+
+N/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/SBJsonStreamWriter.plist
+t1353322889
+s276
+
+N/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/SBJsonStreamWriterAccumulator.plist
+t1353322888
+s276
+
+N/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/SBJsonStreamWriterState.plist
+t1353322888
+s276
+
+N/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/SBJsonTokeniser.plist
+t1353322890
+s276
+
+N/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/SBJsonUTF8Stream.plist
+t1353322888
+s276
+
+N/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/SBJsonWriter.plist
+t1353322888
+s276
+
+N/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/SSAppDelegate.plist
+t1353332234
+s276
+
+N/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/SSViewController.plist
+t1353332234
+s276
+
+N/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/main.plist
+t1353322888
+s276
+
+N/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/PrecompiledHeaders/SearchStation-Prefix-eyurlvnnqvvaaneeeknlsxtuxgtu/SearchStation-Prefix.pch.pth
+t1353322888
+s3907644
+
+N/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/PrecompiledHeaders/SearchStation-Prefix-gdvkevmjnvkgbmfioeikkhwmcbkd/SearchStation-Prefix.pch.pth
+t1353322874
+s3907644
+
+N/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app
+t1353408477
+s272
+
+N/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app.dSYM
+t1353408476
+s102
+
+N/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app/06-magnify.png
+t1353322875
+s3243
+
+N/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app/07-map-marker.png
+t1353322875
+s3131
+
+N/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app/Info.plist
+t1353322874
+s843
+
+N/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app/PkgInfo
+t1353322874
+s8
+
+N/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app/SearchStation
+t1353408476
+s153220
+
+N/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app/en.lproj/InfoPlist.strings
+t1353322875
+s42
+
+N/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app/en.lproj/SSViewController.nib
+t1353331499
+s1937
+
+NSearchStation/SearchStation-Info.plist
+c0000000050A8B47100000000000004B8
+t1353233521
+s1208
+
+CAnalyze /Users/seminar/Documents/iPhone/SearchStation/Classes/NSObject+SBJson.m
+s375015688.473429
+e375015688.550488
+r1
+xAnalyze
+x/Users/seminar/Documents/iPhone/SearchStation/Classes/NSObject+SBJson.m
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Analyze /Users/seminar/Documents/iPhone/SearchStation/Classes/NSObject+SBJson.mbd397c08495ab641^3eed8c08495ab641^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/seminar/Documents/iPhone/SearchStation/Classes/NSObject+SBJson.m0000000000000000^3082"Analyze Classes/NSObject+SBJson.m    cd /Users/seminar/Documents/iPhone/SearchStation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -Xclang -analyzer-checker -Xclang osx.cocoa.experimental.SelfInit -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-generated-files.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-own-target-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-all-target-headers.hmap -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-project-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/include -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources/i386 -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources -F/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator -include /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/PrecompiledHeaders/SearchStation-Prefix-eyurlvnnqvvaaneeeknlsxtuxgtu/SearchStation-Prefix.pch -MMD -MT dependencies -MF /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/NSObject+SBJson.d --analyze /Users/seminar/Documents/iPhone/SearchStation/Classes/NSObject+SBJson.m -o /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/NSObject+SBJson.plist36"0836B45F-EC66-4892-B18D-017D80AEC120-
+
+CAnalyze /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonParser.m
+s375015688.473627
+e375015688.561411
+r1
+xAnalyze
+x/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonParser.m
+oIn file included from /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonParser.m:30:
+o/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonParser.h:45:16: warning: Instance variable 'depth' in class 'SBJsonParser' is never used by the methods in its @implementation (although it may be used by category methods).
+o     NSUInteger depth, maxDepth;
+o                ^
+o1 warning generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Analyze /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonParser.m45497c08495ab641^e3c48f08495ab641^-401"In file included from /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonParser.m:30:/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonParser.h:45:16: warning: Instance variable 'depth' in class 'SBJsonParser' is never used by the methods in its @implementation (although it may be used by category methods).     NSUInteger depth, maxDepth;                ^1 warning generated.1(35%IDEActivityLogAnalyzerResultMessage2@147"Instance variable 'depth' in class 'SBJsonParser' is never used by the methods in its @implementation (although it may be used by category methods)-375015688#18446744073709551615#0#1(38%IDEActivityLogAnalyzerEventStepMessage3@147"Instance variable 'depth' in class 'SBJsonParser' is never used by the methods in its @implementation (although it may be used by category methods)-375015688#18446744073709551615#0#-1#32"com.apple.dt.IDE.analyzer.result23%DVTTextDocumentLocation4@84"file://localhost/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonParser.h0000000000000000^44#15#44#15#18446744073709551615#0#-1(4@84"file://localhost/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonParser.h0000000000000000^44#15#44#15#18446744073709551615#0#-147"Instance variable 'depth' in class 'SBJsonParser' is never used by the methods in its @implementation (although it may be used by category methods)1#32"com.apple.dt.IDE.analyzer.result4@84"file://localhost/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonParser.h0000000000000000^44#15#44#15#18446744073709551615#0#12"Optimization1(4@84"file://localhost/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonParser.h0000000000000000^44#15#44#15#18446744073709551615#0#-24"Unused instance variable0#0#0#-19%DVTDocumentLocation5@84"file://localhost/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonParser.m0000000000000000^3070"Analyze Classes/SBJsonParser.m    cd /Users/seminar/Documents/iPhone/SearchStation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -Xclang -analyzer-checker -Xclang osx.cocoa.experimental.SelfInit -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-generated-files.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-own-target-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-all-target-headers.hmap -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-project-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/include -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources/i386 -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources -F/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator -include /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/PrecompiledHeaders/SearchStation-Prefix-eyurlvnnqvvaaneeeknlsxtuxgtu/SearchStation-Prefix.pch -MMD -MT dependencies -MF /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/SBJsonParser.d --analyze /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonParser.m -o /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/SBJsonParser.plist36"D5EBEF83-B181-47E4-95FE-16F9C9E19151-
+
+CAnalyze /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParser.m
+s375015688.503745
+e375015688.595897
+r1
+xAnalyze
+x/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParser.m
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Analyze /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParser.m8f1c8108495ab641^f06ae108495ab641^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParser.m0000000000000000^3094"Analyze Classes/SBJsonStreamParser.m    cd /Users/seminar/Documents/iPhone/SearchStation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -Xclang -analyzer-checker -Xclang osx.cocoa.experimental.SelfInit -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-generated-files.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-own-target-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-all-target-headers.hmap -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-project-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/include -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources/i386 -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources -F/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator -include /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/PrecompiledHeaders/SearchStation-Prefix-eyurlvnnqvvaaneeeknlsxtuxgtu/SearchStation-Prefix.pch -MMD -MT dependencies -MF /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/SBJsonStreamParser.d --analyze /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParser.m -o /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/SBJsonStreamParser.plist36"CAFD2B2D-F8FC-42BF-9AD0-46879FCC774F-
+
+CAnalyze /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParserAccumulator.m
+s375015688.543351
+e375015688.614685
+r1
+xAnalyze
+x/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParserAccumulator.m
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Analyze /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParserAccumulator.m70408b08495ab641^4f74e108495ab641^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParserAccumulator.m0000000000000000^3138"Analyze Classes/SBJsonStreamParserAccumulator.m    cd /Users/seminar/Documents/iPhone/SearchStation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -Xclang -analyzer-checker -Xclang osx.cocoa.experimental.SelfInit -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-generated-files.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-own-target-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-all-target-headers.hmap -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-project-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/include -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources/i386 -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources -F/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator -include /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/PrecompiledHeaders/SearchStation-Prefix-eyurlvnnqvvaaneeeknlsxtuxgtu/SearchStation-Prefix.pch -MMD -MT dependencies -MF /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/SBJsonStreamParserAccumulator.d --analyze /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParserAccumulator.m -o /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/SBJsonStreamParserAccumulator.plist36"E96F8336-3020-4986-AF37-23B7E8DC2B31-
+
+CAnalyze /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParserAdapter.m
+s375015688.551813
+e375015688.639847
+r1
+xAnalyze
+x/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParserAdapter.m
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Analyze /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParserAdapter.mcb678d08495ab641^4e7ce108495ab641^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParserAdapter.m0000000000000000^3122"Analyze Classes/SBJsonStreamParserAdapter.m    cd /Users/seminar/Documents/iPhone/SearchStation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -Xclang -analyzer-checker -Xclang osx.cocoa.experimental.SelfInit -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-generated-files.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-own-target-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-all-target-headers.hmap -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-project-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/include -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources/i386 -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources -F/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator -include /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/PrecompiledHeaders/SearchStation-Prefix-eyurlvnnqvvaaneeeknlsxtuxgtu/SearchStation-Prefix.pch -MMD -MT dependencies -MF /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/SBJsonStreamParserAdapter.d --analyze /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParserAdapter.m -o /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/SBJsonStreamParserAdapter.plist36"F0658D67-3B5E-4532-A249-5C2ED196B110-
+
+CAnalyze /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParserState.m
+s375015688.562771
+e375015688.687297
+r1
+xAnalyze
+x/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParserState.m
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Analyze /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParserState.me1409008495ab641^a184e108495ab641^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParserState.m0000000000000000^3114"Analyze Classes/SBJsonStreamParserState.m    cd /Users/seminar/Documents/iPhone/SearchStation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -Xclang -analyzer-checker -Xclang osx.cocoa.experimental.SelfInit -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-generated-files.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-own-target-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-all-target-headers.hmap -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-project-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/include -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources/i386 -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources -F/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator -include /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/PrecompiledHeaders/SearchStation-Prefix-eyurlvnnqvvaaneeeknlsxtuxgtu/SearchStation-Prefix.pch -MMD -MT dependencies -MF /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/SBJsonStreamParserState.d --analyze /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParserState.m -o /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/SBJsonStreamParserState.plist36"CA50AEF5-B08A-41EB-BDE9-067196370BA3-
+
+CAnalyze /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamWriter.m
+s375015688.612849
+e375015689.436414
+r1
+xAnalyze
+x/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamWriter.m
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Analyze /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamWriter.m55319d08495ab641^a5bb6f09495ab641^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamWriter.m0000000000000000^3094"Analyze Classes/SBJsonStreamWriter.m    cd /Users/seminar/Documents/iPhone/SearchStation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -Xclang -analyzer-checker -Xclang osx.cocoa.experimental.SelfInit -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-generated-files.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-own-target-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-all-target-headers.hmap -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-project-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/include -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources/i386 -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources -F/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator -include /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/PrecompiledHeaders/SearchStation-Prefix-eyurlvnnqvvaaneeeknlsxtuxgtu/SearchStation-Prefix.pch -MMD -MT dependencies -MF /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/SBJsonStreamWriter.d --analyze /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamWriter.m -o /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/SBJsonStreamWriter.plist36"A5B3F15A-910E-4515-9F37-9AA6605C0193-
+
+CAnalyze /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamWriterAccumulator.m
+s375015688.616710
+e375015688.687595
+r1
+xAnalyze
+x/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamWriterAccumulator.m
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Analyze /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamWriterAccumulator.m75069e08495ab641^f089e108495ab641^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamWriterAccumulator.m0000000000000000^3138"Analyze Classes/SBJsonStreamWriterAccumulator.m    cd /Users/seminar/Documents/iPhone/SearchStation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -Xclang -analyzer-checker -Xclang osx.cocoa.experimental.SelfInit -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-generated-files.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-own-target-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-all-target-headers.hmap -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-project-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/include -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources/i386 -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources -F/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator -include /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/PrecompiledHeaders/SearchStation-Prefix-eyurlvnnqvvaaneeeknlsxtuxgtu/SearchStation-Prefix.pch -MMD -MT dependencies -MF /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/SBJsonStreamWriterAccumulator.d --analyze /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamWriterAccumulator.m -o /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/SBJsonStreamWriterAccumulator.plist36"620E2642-15C5-453C-9BFE-E9E58F12008B-
+
+CAnalyze /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamWriterState.m
+s375015688.641115
+e375015688.743833
+r1
+xAnalyze
+x/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamWriterState.m
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Analyze /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamWriterState.maa45a408495ab641^0491e108495ab641^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamWriterState.m0000000000000000^3114"Analyze Classes/SBJsonStreamWriterState.m    cd /Users/seminar/Documents/iPhone/SearchStation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -Xclang -analyzer-checker -Xclang osx.cocoa.experimental.SelfInit -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-generated-files.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-own-target-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-all-target-headers.hmap -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-project-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/include -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources/i386 -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources -F/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator -include /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/PrecompiledHeaders/SearchStation-Prefix-eyurlvnnqvvaaneeeknlsxtuxgtu/SearchStation-Prefix.pch -MMD -MT dependencies -MF /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/SBJsonStreamWriterState.d --analyze /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamWriterState.m -o /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/SBJsonStreamWriterState.plist36"51960D5D-9A40-4CA3-B7AE-669B020B01CC-
+
+CAnalyze /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonTokeniser.m
+s375015688.694443
+e375015690.445615
+r1
+xAnalyze
+x/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonTokeniser.m
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Analyze /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonTokeniser.m70ecb108495ab641^9416720a495ab641^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonTokeniser.m0000000000000000^3082"Analyze Classes/SBJsonTokeniser.m    cd /Users/seminar/Documents/iPhone/SearchStation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -Xclang -analyzer-checker -Xclang osx.cocoa.experimental.SelfInit -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-generated-files.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-own-target-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-all-target-headers.hmap -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-project-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/include -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources/i386 -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources -F/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator -include /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/PrecompiledHeaders/SearchStation-Prefix-eyurlvnnqvvaaneeeknlsxtuxgtu/SearchStation-Prefix.pch -MMD -MT dependencies -MF /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/SBJsonTokeniser.d --analyze /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonTokeniser.m -o /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/SBJsonTokeniser.plist36"28704987-B489-4397-8DFC-8E7B7C224F50-
+
+CAnalyze /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonUTF8Stream.m
+s375015688.694458
+e375015688.811193
+r1
+xAnalyze
+x/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonUTF8Stream.m
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Analyze /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonUTF8Stream.m66f6b108495ab641^2d97e108495ab641^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonUTF8Stream.m0000000000000000^3086"Analyze Classes/SBJsonUTF8Stream.m    cd /Users/seminar/Documents/iPhone/SearchStation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -Xclang -analyzer-checker -Xclang osx.cocoa.experimental.SelfInit -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-generated-files.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-own-target-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-all-target-headers.hmap -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-project-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/include -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources/i386 -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources -F/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator -include /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/PrecompiledHeaders/SearchStation-Prefix-eyurlvnnqvvaaneeeknlsxtuxgtu/SearchStation-Prefix.pch -MMD -MT dependencies -MF /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/SBJsonUTF8Stream.d --analyze /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonUTF8Stream.m -o /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/SBJsonUTF8Stream.plist36"01BA7878-0719-4381-A924-8BC07E69B0ED-
+
+CAnalyze /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonWriter.m
+s375015688.745236
+e375015688.843614
+r1
+xAnalyze
+x/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonWriter.m
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Analyze /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonWriter.m2bfbbe08495ab641^d49be108495ab641^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonWriter.m0000000000000000^3070"Analyze Classes/SBJsonWriter.m    cd /Users/seminar/Documents/iPhone/SearchStation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -Xclang -analyzer-checker -Xclang osx.cocoa.experimental.SelfInit -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-generated-files.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-own-target-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-all-target-headers.hmap -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-project-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/include -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources/i386 -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources -F/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator -include /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/PrecompiledHeaders/SearchStation-Prefix-eyurlvnnqvvaaneeeknlsxtuxgtu/SearchStation-Prefix.pch -MMD -MT dependencies -MF /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/SBJsonWriter.d --analyze /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonWriter.m -o /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/SBJsonWriter.plist36"21C72319-DA76-44D0-ABED-14C756050232-
+
+CAnalyze /Users/seminar/Documents/iPhone/SearchStation/SearchStation/ConnectionManager.m
+s375015688.469684
+e375015688.542091
+r1
+xAnalyze
+x/Users/seminar/Documents/iPhone/SearchStation/SearchStation/ConnectionManager.m
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Analyze /Users/seminar/Documents/iPhone/SearchStation/SearchStation/ConnectionManager.m2a727808495ab641^6bd58a08495ab641^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/seminar/Documents/iPhone/SearchStation/SearchStation/ConnectionManager.m0000000000000000^3102"Analyze SearchStation/ConnectionManager.m    cd /Users/seminar/Documents/iPhone/SearchStation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -Xclang -analyzer-checker -Xclang osx.cocoa.experimental.SelfInit -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-generated-files.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-own-target-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-all-target-headers.hmap -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-project-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/include -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources/i386 -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources -F/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator -include /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/PrecompiledHeaders/SearchStation-Prefix-eyurlvnnqvvaaneeeknlsxtuxgtu/SearchStation-Prefix.pch -MMD -MT dependencies -MF /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/ConnectionManager.d --analyze /Users/seminar/Documents/iPhone/SearchStation/SearchStation/ConnectionManager.m -o /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/ConnectionManager.plist36"C5E2B996-6A93-40AF-A609-49167096964B-
+
+CAnalyze /Users/seminar/Documents/iPhone/SearchStation/SearchStation/PinAnnotation.m
+s375015688.286401
+e375015688.472932
+r1
+xAnalyze
+x/Users/seminar/Documents/iPhone/SearchStation/SearchStation/PinAnnotation.m
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Analyze /Users/seminar/Documents/iPhone/SearchStation/SearchStation/PinAnnotation.m2b6d4908495ab641^94137908495ab641^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/seminar/Documents/iPhone/SearchStation/SearchStation/PinAnnotation.m0000000000000000^3086"Analyze SearchStation/PinAnnotation.m    cd /Users/seminar/Documents/iPhone/SearchStation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -Xclang -analyzer-checker -Xclang osx.cocoa.experimental.SelfInit -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-generated-files.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-own-target-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-all-target-headers.hmap -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-project-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/include -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources/i386 -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources -F/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator -include /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/PrecompiledHeaders/SearchStation-Prefix-eyurlvnnqvvaaneeeknlsxtuxgtu/SearchStation-Prefix.pch -MMD -MT dependencies -MF /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/PinAnnotation.d --analyze /Users/seminar/Documents/iPhone/SearchStation/SearchStation/PinAnnotation.m -o /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/PinAnnotation.plist36"B70059C9-D73D-455D-A63F-D35D967A7AF1-
+
+CAnalyze /Users/seminar/Documents/iPhone/SearchStation/SearchStation/SSAppDelegate.m
+s375101321.684506
+e375101321.758264
+r1
+xAnalyze
+x/Users/seminar/Documents/iPhone/SearchStation/SearchStation/SSAppDelegate.m
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Analyze /Users/seminar/Documents/iPhone/SearchStation/SearchStation/SSAppDelegate.me273af89975bb641^d541ca89975bb641^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/seminar/Documents/iPhone/SearchStation/SearchStation/SSAppDelegate.m0000000000000000^3086"Analyze SearchStation/SSAppDelegate.m    cd /Users/seminar/Documents/iPhone/SearchStation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -Xclang -analyzer-checker -Xclang osx.cocoa.experimental.SelfInit -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-generated-files.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-own-target-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-all-target-headers.hmap -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-project-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/include -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources/i386 -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources -F/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator -include /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/PrecompiledHeaders/SearchStation-Prefix-eyurlvnnqvvaaneeeknlsxtuxgtu/SearchStation-Prefix.pch -MMD -MT dependencies -MF /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/SSAppDelegate.d --analyze /Users/seminar/Documents/iPhone/SearchStation/SearchStation/SSAppDelegate.m -o /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/SSAppDelegate.plist36"6BDED9C5-F705-4587-A0A0-C77A7C2463F2-
+
+CAnalyze /Users/seminar/Documents/iPhone/SearchStation/SearchStation/SSViewController.m
+s375101321.684497
+e375101321.780912
+r1
+xAnalyze
+x/Users/seminar/Documents/iPhone/SearchStation/SearchStation/SSViewController.m
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Analyze /Users/seminar/Documents/iPhone/SearchStation/SearchStation/SSViewController.m4565af89975bb641^8448ca89975bb641^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/seminar/Documents/iPhone/SearchStation/SearchStation/SSViewController.m0000000000000000^3098"Analyze SearchStation/SSViewController.m    cd /Users/seminar/Documents/iPhone/SearchStation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -Xclang -analyzer-checker -Xclang osx.cocoa.experimental.SelfInit -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-generated-files.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-own-target-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-all-target-headers.hmap -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-project-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/include -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources/i386 -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources -F/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator -include /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/PrecompiledHeaders/SearchStation-Prefix-eyurlvnnqvvaaneeeknlsxtuxgtu/SearchStation-Prefix.pch -MMD -MT dependencies -MF /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/SSViewController.d --analyze /Users/seminar/Documents/iPhone/SearchStation/SearchStation/SSViewController.m -o /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/SSViewController.plist36"A8E3A751-0DBC-463E-9FD2-095179132CEB-
+
+CAnalyze /Users/seminar/Documents/iPhone/SearchStation/SearchStation/main.m
+s375015688.285813
+e375015688.467948
+r1
+xAnalyze
+x/Users/seminar/Documents/iPhone/SearchStation/SearchStation/main.m
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Analyze /Users/seminar/Documents/iPhone/SearchStation/SearchStation/main.ma9504908495ab641^d1cc7708495ab641^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/seminar/Documents/iPhone/SearchStation/SearchStation/main.m0000000000000000^3050"Analyze SearchStation/main.m    cd /Users/seminar/Documents/iPhone/SearchStation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -Xclang -analyzer-checker -Xclang osx.cocoa.experimental.SelfInit -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-generated-files.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-own-target-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-all-target-headers.hmap -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-project-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/include -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources/i386 -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources -F/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator -include /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/PrecompiledHeaders/SearchStation-Prefix-eyurlvnnqvvaaneeeknlsxtuxgtu/SearchStation-Prefix.pch -MMD -MT dependencies -MF /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/main.d --analyze /Users/seminar/Documents/iPhone/SearchStation/SearchStation/main.m -o /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/StaticAnalyzer/normal/i386/main.plist36"239CE141-17B3-4564-9677-2E525CBE1FDC-
+
+CBuild AST from /Users/seminar/Documents/iPhone/SearchStation/Classes/NSObject+SBJson.m
+r0
+
+CBuild AST from /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonParser.m
+r0
+
+CBuild AST from /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParser.m
+r0
+
+CBuild AST from /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParserAccumulator.m
+r0
+
+CBuild AST from /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParserAdapter.m
+r0
+
+CBuild AST from /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParserState.m
+r0
+
+CBuild AST from /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamWriter.m
+r0
+
+CBuild AST from /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamWriterAccumulator.m
+r0
+
+CBuild AST from /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamWriterState.m
+r0
+
+CBuild AST from /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonTokeniser.m
+r0
+
+CBuild AST from /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonUTF8Stream.m
+r0
+
+CBuild AST from /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonWriter.m
+r0
+
+CBuild AST from /Users/seminar/Documents/iPhone/SearchStation/SearchStation/ConnectionManager.m
+r0
+
+CBuild AST from /Users/seminar/Documents/iPhone/SearchStation/SearchStation/PinAnnotation.m
+r0
+
+CBuild AST from /Users/seminar/Documents/iPhone/SearchStation/SearchStation/SSAppDelegate.m
+r0
+
+CBuild AST from /Users/seminar/Documents/iPhone/SearchStation/SearchStation/SSViewController.m
+r0
+
+CBuild AST from /Users/seminar/Documents/iPhone/SearchStation/SearchStation/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies56806389975bb641^5d51a689975bb641^---0#1#0#--18"Check dependencies36"9C2424DB-A455-44DF-8827-8319647E249B-
+
+CCompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/ConnectionManager.o /Users/seminar/Documents/iPhone/SearchStation/SearchStation/ConnectionManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375015674.730350
+e375015674.768419
+r1
+xCompileC
+xtest/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/ConnectionManager.o
+x/Users/seminar/Documents/iPhone/SearchStation/SearchStation/ConnectionManager.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/seminar/Documents/iPhone/SearchStation/SearchStation/ConnectionManager.m232fbbfa485ab641^d8b6c4fa485ab641^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/seminar/Documents/iPhone/SearchStation/SearchStation/ConnectionManager.m0000000000000000^3266"CompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/ConnectionManager.o SearchStation/ConnectionManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seminar/Documents/iPhone/SearchStation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-generated-files.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-own-target-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-all-target-headers.hmap -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-project-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/include -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources/i386 -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources -F/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator -include /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/PrecompiledHeaders/SearchStation-Prefix-gdvkevmjnvkgbmfioeikkhwmcbkd/SearchStation-Prefix.pch -MMD -MT dependencies -MF /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/ConnectionManager.d -c /Users/seminar/Documents/iPhone/SearchStation/SearchStation/ConnectionManager.m -o /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/ConnectionManager.o36"071C5F55-624F-4C75-9F82-CE6ACB930E20-
+
+CCompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/NSObject+SBJson.o /Users/seminar/Documents/iPhone/SearchStation/Classes/NSObject+SBJson.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375015674.760459
+e375015674.792987
+r1
+xCompileC
+xtest/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/NSObject+SBJson.o
+x/Users/seminar/Documents/iPhone/SearchStation/Classes/NSObject+SBJson.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/seminar/Documents/iPhone/SearchStation/Classes/NSObject+SBJson.m34dac2fa485ab641^b801cbfa485ab641^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/seminar/Documents/iPhone/SearchStation/Classes/NSObject+SBJson.m0000000000000000^3244"CompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/NSObject+SBJson.o Classes/NSObject+SBJson.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seminar/Documents/iPhone/SearchStation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-generated-files.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-own-target-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-all-target-headers.hmap -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-project-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/include -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources/i386 -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources -F/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator -include /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/PrecompiledHeaders/SearchStation-Prefix-gdvkevmjnvkgbmfioeikkhwmcbkd/SearchStation-Prefix.pch -MMD -MT dependencies -MF /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/NSObject+SBJson.d -c /Users/seminar/Documents/iPhone/SearchStation/Classes/NSObject+SBJson.m -o /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/NSObject+SBJson.o36"76D6BD2C-D8F0-4712-8BFB-AAAB9DDDBFB0-
+
+CCompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/PinAnnotation.o /Users/seminar/Documents/iPhone/SearchStation/SearchStation/PinAnnotation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375015674.678254
+e375015674.759119
+r1
+xCompileC
+xtest/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/PinAnnotation.o
+x/Users/seminar/Documents/iPhone/SearchStation/SearchStation/PinAnnotation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/seminar/Documents/iPhone/SearchStation/SearchStation/PinAnnotation.m41d4adfa485ab641^8c65c2fa485ab641^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/seminar/Documents/iPhone/SearchStation/SearchStation/PinAnnotation.m0000000000000000^3246"CompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/PinAnnotation.o SearchStation/PinAnnotation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seminar/Documents/iPhone/SearchStation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-generated-files.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-own-target-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-all-target-headers.hmap -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-project-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/include -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources/i386 -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources -F/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator -include /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/PrecompiledHeaders/SearchStation-Prefix-gdvkevmjnvkgbmfioeikkhwmcbkd/SearchStation-Prefix.pch -MMD -MT dependencies -MF /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/PinAnnotation.d -c /Users/seminar/Documents/iPhone/SearchStation/SearchStation/PinAnnotation.m -o /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/PinAnnotation.o36"2129BEFB-8AB9-47F4-882D-FCA2F85033B1-
+
+CCompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonParser.o /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375015674.770491
+e375015674.831356
+r1
+xCompileC
+xtest/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonParser.o
+x/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonParser.m8270c5fa485ab641^28d3d4fa485ab641^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonParser.m0000000000000000^3229"CompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonParser.o Classes/SBJsonParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seminar/Documents/iPhone/SearchStation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-generated-files.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-own-target-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-all-target-headers.hmap -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-project-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/include -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources/i386 -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources -F/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator -include /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/PrecompiledHeaders/SearchStation-Prefix-gdvkevmjnvkgbmfioeikkhwmcbkd/SearchStation-Prefix.pch -MMD -MT dependencies -MF /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonParser.d -c /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonParser.m -o /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonParser.o36"C1680A35-509F-4DB5-9CD2-D4F0B0813F6A-
+
+CCompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonStreamParser.o /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375015674.786783
+e375015674.925442
+r1
+xCompileC
+xtest/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonStreamParser.o
+x/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParser.mf5bac9fa485ab641^e700edfa485ab641^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParser.m0000000000000000^3259"CompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonStreamParser.o Classes/SBJsonStreamParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seminar/Documents/iPhone/SearchStation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-generated-files.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-own-target-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-all-target-headers.hmap -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-project-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/include -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources/i386 -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources -F/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator -include /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/PrecompiledHeaders/SearchStation-Prefix-gdvkevmjnvkgbmfioeikkhwmcbkd/SearchStation-Prefix.pch -MMD -MT dependencies -MF /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonStreamParser.d -c /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParser.m -o /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonStreamParser.o36"952261CA-1F01-4437-B0AA-C1BA403696C9-
+
+CCompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonStreamParserAccumulator.o /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParserAccumulator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375015674.794368
+e375015674.839437
+r1
+xCompileC
+xtest/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonStreamParserAccumulator.o
+x/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParserAccumulator.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParserAccumulator.mc47acbfa485ab641^04e5d6fa485ab641^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParserAccumulator.m0000000000000000^3314"CompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonStreamParserAccumulator.o Classes/SBJsonStreamParserAccumulator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seminar/Documents/iPhone/SearchStation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-generated-files.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-own-target-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-all-target-headers.hmap -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-project-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/include -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources/i386 -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources -F/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator -include /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/PrecompiledHeaders/SearchStation-Prefix-gdvkevmjnvkgbmfioeikkhwmcbkd/SearchStation-Prefix.pch -MMD -MT dependencies -MF /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonStreamParserAccumulator.d -c /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParserAccumulator.m -o /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonStreamParserAccumulator.o36"C762998C-E665-4FB5-9872-4B280456A035-
+
+CCompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonStreamParserAdapter.o /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParserAdapter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375015674.806849
+e375015674.850415
+r1
+xCompileC
+xtest/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonStreamParserAdapter.o
+x/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParserAdapter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParserAdapter.m71a9cefa485ab641^24b4d9fa485ab641^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParserAdapter.m0000000000000000^3294"CompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonStreamParserAdapter.o Classes/SBJsonStreamParserAdapter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seminar/Documents/iPhone/SearchStation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-generated-files.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-own-target-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-all-target-headers.hmap -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-project-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/include -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources/i386 -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources -F/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator -include /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/PrecompiledHeaders/SearchStation-Prefix-gdvkevmjnvkgbmfioeikkhwmcbkd/SearchStation-Prefix.pch -MMD -MT dependencies -MF /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonStreamParserAdapter.d -c /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParserAdapter.m -o /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonStreamParserAdapter.o36"A515589E-A5C8-4CC2-9FB9-BD4690631178-
+
+CCompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonStreamParserState.o /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParserState.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375015674.833206
+e375015674.922996
+r1
+xCompileC
+xtest/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonStreamParserState.o
+x/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParserState.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParserState.ma378d5fa485ab641^0458ecfa485ab641^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParserState.m0000000000000000^3284"CompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonStreamParserState.o Classes/SBJsonStreamParserState.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seminar/Documents/iPhone/SearchStation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-generated-files.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-own-target-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-all-target-headers.hmap -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-project-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/include -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources/i386 -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources -F/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator -include /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/PrecompiledHeaders/SearchStation-Prefix-gdvkevmjnvkgbmfioeikkhwmcbkd/SearchStation-Prefix.pch -MMD -MT dependencies -MF /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonStreamParserState.d -c /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamParserState.m -o /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonStreamParserState.o36"F65E815C-4B84-4D44-A632-496FD4B1A0AD-
+
+CCompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonStreamWriter.o /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamWriter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375015674.840768
+e375015674.921268
+r1
+xCompileC
+xtest/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonStreamWriter.o
+x/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamWriter.mf563d7fa485ab641^21e9ebfa485ab641^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamWriter.m0000000000000000^3259"CompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonStreamWriter.o Classes/SBJsonStreamWriter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seminar/Documents/iPhone/SearchStation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-generated-files.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-own-target-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-all-target-headers.hmap -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-project-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/include -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources/i386 -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources -F/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator -include /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/PrecompiledHeaders/SearchStation-Prefix-gdvkevmjnvkgbmfioeikkhwmcbkd/SearchStation-Prefix.pch -MMD -MT dependencies -MF /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonStreamWriter.d -c /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamWriter.m -o /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonStreamWriter.o36"A7442E74-0017-4F0C-A2C2-5F425FADC42E-
+
+CCompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonStreamWriterAccumulator.o /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamWriterAccumulator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375015674.851702
+e375015674.885925
+r1
+xCompileC
+xtest/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonStreamWriterAccumulator.o
+x/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamWriterAccumulator.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamWriterAccumulator.m9621dafa485ab641^efcae2fa485ab641^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamWriterAccumulator.m0000000000000000^3314"CompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonStreamWriterAccumulator.o Classes/SBJsonStreamWriterAccumulator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seminar/Documents/iPhone/SearchStation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-generated-files.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-own-target-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-all-target-headers.hmap -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-project-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/include -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources/i386 -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources -F/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator -include /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/PrecompiledHeaders/SearchStation-Prefix-gdvkevmjnvkgbmfioeikkhwmcbkd/SearchStation-Prefix.pch -MMD -MT dependencies -MF /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonStreamWriterAccumulator.d -c /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamWriterAccumulator.m -o /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonStreamWriterAccumulator.o36"9869725C-5CBE-4918-8161-43262857FE47-
+
+CCompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonStreamWriterState.o /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamWriterState.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375015674.887261
+e375015674.950284
+r1
+xCompileC
+xtest/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonStreamWriterState.o
+x/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamWriterState.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamWriterState.mfa47e3fa485ab641^7c45f3fa485ab641^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamWriterState.m0000000000000000^3284"CompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonStreamWriterState.o Classes/SBJsonStreamWriterState.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seminar/Documents/iPhone/SearchStation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-generated-files.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-own-target-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-all-target-headers.hmap -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-project-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/include -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources/i386 -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources -F/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator -include /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/PrecompiledHeaders/SearchStation-Prefix-gdvkevmjnvkgbmfioeikkhwmcbkd/SearchStation-Prefix.pch -MMD -MT dependencies -MF /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonStreamWriterState.d -c /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonStreamWriterState.m -o /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonStreamWriterState.o36"ADA37864-07C3-4A5F-B5B3-8DC7BFB2E179-
+
+CCompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonTokeniser.o /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonTokeniser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375015674.922593
+e375015674.975494
+r1
+xCompileC
+xtest/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonTokeniser.o
+x/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonTokeniser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonTokeniser.m9659ecfa485ab641^cfbbf9fa485ab641^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonTokeniser.m0000000000000000^3244"CompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonTokeniser.o Classes/SBJsonTokeniser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seminar/Documents/iPhone/SearchStation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-generated-files.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-own-target-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-all-target-headers.hmap -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-project-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/include -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources/i386 -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources -F/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator -include /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/PrecompiledHeaders/SearchStation-Prefix-gdvkevmjnvkgbmfioeikkhwmcbkd/SearchStation-Prefix.pch -MMD -MT dependencies -MF /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonTokeniser.d -c /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonTokeniser.m -o /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonTokeniser.o36"2F15A9FC-F1F5-43D6-9E3F-FAA5ED60BAC9-
+
+CCompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonUTF8Stream.o /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonUTF8Stream.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375015674.924288
+e375015674.965316
+r1
+xCompileC
+xtest/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonUTF8Stream.o
+x/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonUTF8Stream.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonUTF8Stream.mb5c2ecfa485ab641^b01ef7fa485ab641^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonUTF8Stream.m0000000000000000^3249"CompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonUTF8Stream.o Classes/SBJsonUTF8Stream.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seminar/Documents/iPhone/SearchStation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-generated-files.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-own-target-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-all-target-headers.hmap -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-project-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/include -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources/i386 -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources -F/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator -include /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/PrecompiledHeaders/SearchStation-Prefix-gdvkevmjnvkgbmfioeikkhwmcbkd/SearchStation-Prefix.pch -MMD -MT dependencies -MF /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonUTF8Stream.d -c /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonUTF8Stream.m -o /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonUTF8Stream.o36"A68C5733-9B9F-4669-AF7C-60F123C1BB0B-
+
+CCompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonWriter.o /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonWriter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375015674.926695
+e375015674.971659
+r1
+xCompileC
+xtest/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonWriter.o
+x/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonWriter.m2463edfa485ab641^6ebff8fa485ab641^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonWriter.m0000000000000000^3229"CompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonWriter.o Classes/SBJsonWriter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seminar/Documents/iPhone/SearchStation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-generated-files.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-own-target-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-all-target-headers.hmap -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-project-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/include -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources/i386 -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources -F/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator -include /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/PrecompiledHeaders/SearchStation-Prefix-gdvkevmjnvkgbmfioeikkhwmcbkd/SearchStation-Prefix.pch -MMD -MT dependencies -MF /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonWriter.d -c /Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonWriter.m -o /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SBJsonWriter.o36"C8004AE2-6ECD-41FB-A243-174353ACB450-
+
+CCompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SSAppDelegate.o /Users/seminar/Documents/iPhone/SearchStation/SearchStation/SSAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375100458.995091
+e375100459.187841
+r1
+xCompileC
+xtest/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SSAppDelegate.o
+x/Users/seminar/Documents/iPhone/SearchStation/SearchStation/SSAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/seminar/Documents/iPhone/SearchStation/SearchStation/SSAppDelegate.m11e2fe2a945bb641^e415302b945bb641^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/seminar/Documents/iPhone/SearchStation/SearchStation/SSAppDelegate.m0000000000000000^3246"CompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SSAppDelegate.o SearchStation/SSAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seminar/Documents/iPhone/SearchStation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-generated-files.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-own-target-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-all-target-headers.hmap -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-project-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/include -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources/i386 -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources -F/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator -include /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/PrecompiledHeaders/SearchStation-Prefix-gdvkevmjnvkgbmfioeikkhwmcbkd/SearchStation-Prefix.pch -MMD -MT dependencies -MF /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SSAppDelegate.d -c /Users/seminar/Documents/iPhone/SearchStation/SearchStation/SSAppDelegate.m -o /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SSAppDelegate.o36"CD19AC38-929D-4D2F-9B53-36A1AE845B04-
+
+CCompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SSViewController.o /Users/seminar/Documents/iPhone/SearchStation/SearchStation/SSViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375101276.517904
+e375101276.749828
+r1
+xCompileC
+xtest/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SSViewController.o
+x/Users/seminar/Documents/iPhone/SearchStation/SearchStation/SSViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/seminar/Documents/iPhone/SearchStation/SearchStation/SSViewController.m9bad845c975bb641^ac71c25c975bb641^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/seminar/Documents/iPhone/SearchStation/SearchStation/SSViewController.m0000000000000000^3261"CompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SSViewController.o SearchStation/SSViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seminar/Documents/iPhone/SearchStation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-generated-files.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-own-target-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-all-target-headers.hmap -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-project-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/include -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources/i386 -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources -F/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator -include /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/PrecompiledHeaders/SearchStation-Prefix-gdvkevmjnvkgbmfioeikkhwmcbkd/SearchStation-Prefix.pch -MMD -MT dependencies -MF /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SSViewController.d -c /Users/seminar/Documents/iPhone/SearchStation/SearchStation/SSViewController.m -o /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SSViewController.o36"517B1C5E-BD63-413A-8392-E6A192BA46C5-
+
+CCompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/main.o /Users/seminar/Documents/iPhone/SearchStation/SearchStation/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375015674.677677
+e375015674.728995
+r1
+xCompileC
+xtest/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/main.o
+x/Users/seminar/Documents/iPhone/SearchStation/SearchStation/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/seminar/Documents/iPhone/SearchStation/SearchStation/main.mbf98adfa485ab641^bfb6bafa485ab641^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/seminar/Documents/iPhone/SearchStation/SearchStation/main.m0000000000000000^3201"CompileC test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/main.o SearchStation/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seminar/Documents/iPhone/SearchStation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-generated-files.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-own-target-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-all-target-headers.hmap -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-project-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/include -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources/i386 -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources -F/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator -include /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/PrecompiledHeaders/SearchStation-Prefix-gdvkevmjnvkgbmfioeikkhwmcbkd/SearchStation-Prefix.pch -MMD -MT dependencies -MF /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/main.d -c /Users/seminar/Documents/iPhone/SearchStation/SearchStation/main.m -o /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/main.o36"2C55E743-749B-4F1C-ADC7-BB530F54C8F6-
+
+CCompileXIB /Users/seminar/Documents/iPhone/SearchStation/SearchStation/en.lproj/SSViewController.xib
+s375024294.955986
+e375024299.655279
+r1
+xCompileXIB
+x/Users/seminar/Documents/iPhone/SearchStation/SearchStation/en.lproj/SSViewController.xib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compiling /Users/seminar/Documents/iPhone/SearchStation/SearchStation/en.lproj/SSViewController.xibabd0f4a66a5ab641^3cc0a7ab6a5ab641^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/seminar/Documents/iPhone/SearchStation/SearchStation/en.lproj/SSViewController.xib0000000000000000^782"CompileXIB SearchStation/en.lproj/SSViewController.xib    cd /Users/seminar/Documents/iPhone/SearchStation    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app/en.lproj/SSViewController.nib /Users/seminar/Documents/iPhone/SearchStation/SearchStation/en.lproj/SSViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk36"FE9475EB-F2E9-4E29-B88B-FA5C12776057-
+
+CCopyStringsFile /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app/en.lproj/InfoPlist.strings SearchStation/en.lproj/InfoPlist.strings
+s375015675.098128
+e375015675.130109
+r1
+xCopyStringsFile
+x/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app/en.lproj/InfoPlist.strings
+xSearchStation/en.lproj/InfoPlist.strings
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy SearchStation/en.lproj/InfoPlist.strings7a3819fb485ab641^594f21fb485ab641^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/seminar/Documents/iPhone/SearchStation/SearchStation/en.lproj/InfoPlist.strings0000000000000000^605"CopyStringsFile test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app/en.lproj/InfoPlist.strings SearchStation/en.lproj/InfoPlist.strings    cd /Users/seminar/Documents/iPhone/SearchStation    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app/en.lproj -- SearchStation/en.lproj/InfoPlist.strings36"083073EF-716B-4038-9973-400D416D6332-
+
+CCpResource SearchStation/06-magnify.png test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app/06-magnify.png
+s375015675.098151
+e375015675.129572
+r1
+xCpResource
+xSearchStation/06-magnify.png
+xtest/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app/06-magnify.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Copy test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app/06-magnify.pnge73619fb485ab641^013121fb485ab641^---0#0#0#-19%DVTDocumentLocation2@150"file://localhost/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app/06-magnify.png00f4d869dfffdf42^620"CpResource SearchStation/06-magnify.png test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app/06-magnify.png    cd /Users/seminar/Documents/iPhone/SearchStation    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/seminar/Documents/iPhone/SearchStation/SearchStation/06-magnify.png /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app36"6FF662C3-3D6D-4EC8-9BD1-B6272C8F9094-
+
+CCpResource SearchStation/07-map-marker.png test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app/07-map-marker.png
+s375015675.098420
+e375015675.129617
+r1
+xCpResource
+xSearchStation/07-map-marker.png
+xtest/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app/07-map-marker.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Copy test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app/07-map-marker.pngaf4319fb485ab641^ff3c21fb485ab641^---0#0#0#-19%DVTDocumentLocation2@153"file://localhost/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app/07-map-marker.png00f4d869dfffdf42^629"CpResource SearchStation/07-map-marker.png test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app/07-map-marker.png    cd /Users/seminar/Documents/iPhone/SearchStation    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/seminar/Documents/iPhone/SearchStation/SearchStation/07-map-marker.png /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app36"5FEBBF94-A293-484C-B56B-3B58F198F1A0-
+
+CGenerateDSYMFile /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app.dSYM /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app/SearchStation
+s375101276.925258
+e375101277.070957
+r1
+xGenerateDSYMFile
+x/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app.dSYM
+x/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app/SearchStation
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Generating /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app.dSYM1cedec5c975bb641^a629125d975bb641^---0#0#0#-19%DVTDocumentLocation2@141"file://localhost/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app.dSYM/0000000000000000^662"GenerateDSYMFile test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app.dSYM test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app/SearchStation    cd /Users/seminar/Documents/iPhone/SearchStation    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app/SearchStation -o /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app.dSYM36"4E68B9BA-12AA-4F35-AEE4-94A7FC5523B3-
+
+CLd /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app/SearchStation normal i386
+s375101276.757642
+e375101276.917421
+r1
+xLd
+x/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app/SearchStation
+xnormal
+xi386
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection138"Link /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app/SearchStation3a08c25c975bb641^7fdcea5c975bb641^---0#0#0#--1295"Ld test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app/SearchStation normal i386    cd /Users/seminar/Documents/iPhone/SearchStation    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -L/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator -F/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator -filelist /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/Objects-normal/i386/SearchStation.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -no_implicit_dylibs -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -framework CoreLocation -framework MapKit -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app/SearchStation36"1C235037-651A-4745-BEB4-5DF82EF21E03-
+
+CProcessInfoPlistFile /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app/Info.plist SearchStation/SearchStation-Info.plist
+s375015674.016532
+e375015674.020025
+r1
+xProcessInfoPlistFile
+x/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app/Info.plist
+xSearchStation/SearchStation-Info.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Process SearchStation/SearchStation-Info.plist6e4f04fa485ab641^a31f05fa485ab641^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/seminar/Documents/iPhone/SearchStation/SearchStation/SearchStation-Info.plist0000000000000000^733"ProcessInfoPlistFile test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app/Info.plist SearchStation/SearchStation-Info.plist    cd /Users/seminar/Documents/iPhone/SearchStation    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility SearchStation/SearchStation-Info.plist -genpkginfo /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app/Info.plist36"592DC047-3F39-4502-8612-569CC257B003-
+
+CProcessPCH /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/PrecompiledHeaders/SearchStation-Prefix-eyurlvnnqvvaaneeeknlsxtuxgtu/SearchStation-Prefix.pch.pth SearchStation/SearchStation-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s375015688.064781
+e375015688.278869
+r1
+xProcessPCH
+x/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/PrecompiledHeaders/SearchStation-Prefix-eyurlvnnqvvaaneeeknlsxtuxgtu/SearchStation-Prefix.pch.pth
+xSearchStation/SearchStation-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Precompile SearchStation/SearchStation-Prefix.pch52d51008495ab641^f1644708495ab641^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/seminar/Documents/iPhone/SearchStation/SearchStation/SearchStation-Prefix.pch0000000000000000^3076"ProcessPCH test/SearchStation/Build/PrecompiledHeaders/SearchStation-Prefix-eyurlvnnqvvaaneeeknlsxtuxgtu/SearchStation-Prefix.pch.pth SearchStation/SearchStation-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer    cd /Users/seminar/Documents/iPhone/SearchStation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -Xclang -analyzer-checker -Xclang osx.cocoa.experimental.SelfInit -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-generated-files.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-own-target-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-all-target-headers.hmap -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-project-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/include -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources/i386 -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources -F/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator -c /Users/seminar/Documents/iPhone/SearchStation/SearchStation/SearchStation-Prefix.pch -o /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/PrecompiledHeaders/SearchStation-Prefix-eyurlvnnqvvaaneeeknlsxtuxgtu/SearchStation-Prefix.pch.pth -MMD -MT dependencies -MF /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/PrecompiledHeaders/SearchStation-Prefix-eyurlvnnqvvaaneeeknlsxtuxgtu/SearchStation-Prefix.pch.d36"E0D740C7-50C6-455F-9D92-3BA1CEAB801A-
+
+CProcessPCH /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/PrecompiledHeaders/SearchStation-Prefix-gdvkevmjnvkgbmfioeikkhwmcbkd/SearchStation-Prefix.pch.pth SearchStation/SearchStation-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s375015674.029819
+e375015674.670599
+r1
+xProcessPCH
+x/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/PrecompiledHeaders/SearchStation-Prefix-gdvkevmjnvkgbmfioeikkhwmcbkd/SearchStation-Prefix.pch.pth
+xSearchStation/SearchStation-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Precompile SearchStation/SearchStation-Prefix.pch34d907fa485ab641^d6acabfa485ab641^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/seminar/Documents/iPhone/SearchStation/SearchStation/SearchStation-Prefix.pch0000000000000000^3055"ProcessPCH test/SearchStation/Build/PrecompiledHeaders/SearchStation-Prefix-gdvkevmjnvkgbmfioeikkhwmcbkd/SearchStation-Prefix.pch.pth SearchStation/SearchStation-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/seminar/Documents/iPhone/SearchStation    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50000 -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-generated-files.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-own-target-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-all-target-headers.hmap -iquote /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/SearchStation-project-headers.hmap -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/include -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources/i386 -I/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Intermediates/SearchStation.build/Debug-iphonesimulator/SearchStation.build/DerivedSources -F/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator -c /Users/seminar/Documents/iPhone/SearchStation/SearchStation/SearchStation-Prefix.pch -o /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/PrecompiledHeaders/SearchStation-Prefix-gdvkevmjnvkgbmfioeikkhwmcbkd/SearchStation-Prefix.pch.pth -MMD -MT dependencies -MF /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/PrecompiledHeaders/SearchStation-Prefix-gdvkevmjnvkgbmfioeikkhwmcbkd/SearchStation-Prefix.pch.d36"C7B0D2D8-F3CA-4D5F-8D85-0CFB40A91B0D-
+
+CProcessPCH /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Index/PrecompiledHeaders/SearchStation-Prefix-egerayutjbatmceoybgnbawlwyif_ast/SearchStation-Prefix.pch.pth SearchStation/SearchStation-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app
+s375101277.089083
+e375101277.119867
+r1
+xTouch
+x/Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection125"Touch /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.appa0dc165d975bb641^85b01e5d975bb641^---0#0#0#--406"Touch test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app    cd /Users/seminar/Documents/iPhone/SearchStation    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/seminar/Documents/iPhone/SearchStation/test/SearchStation/Build/Products/Debug-iphonesimulator/SearchStation.app36"58D88353-2CC7-4F02-82C7-D7C489D2FC11-
+

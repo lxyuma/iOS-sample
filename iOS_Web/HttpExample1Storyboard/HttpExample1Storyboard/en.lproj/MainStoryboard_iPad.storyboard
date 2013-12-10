@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12E55" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="4">
+            <objects>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5">
+                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RWy-jM-PEL">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="360" id="QNo-dA-MDy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Download Image">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnDownloadImage:" destination="2" eventType="touchUpInside" id="yAZ-YU-nzb"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Please input URL" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YEY-xf-C1d">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" type="user" id="92J-DH-lWv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="2" id="p0f-8Y-6Jj"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7IF-O7-lBr">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Download text">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnDownloadText:" destination="2" eventType="touchUpInside" id="eld-S0-Lwq"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PDN-g3-p6d">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="166" id="5yP-rn-Ohz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kst-jI-8mF">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="623" id="a4G-dg-6rd"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Kst-jI-8mF" firstAttribute="top" secondItem="RWy-jM-PEL" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="4Xu-gQ-rJj"/>
+                            <constraint firstItem="YEY-xf-C1d" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="7SO-SS-4Be"/>
+                            <constraint firstItem="YEY-xf-C1d" firstAttribute="top" secondItem="5" secondAttribute="top" constant="20" symbolic="YES" type="user" id="APL-iU-yqC"/>
+                            <constraint firstAttribute="trailing" secondItem="YEY-xf-C1d" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="FL1-fa-RPH"/>
+                            <constraint firstItem="RWy-jM-PEL" firstAttribute="top" secondItem="YEY-xf-C1d" secondAttribute="bottom" constant="8" symbolic="YES" type="user" id="GSl-pQ-MhU"/>
+                            <constraint firstAttribute="trailing" secondItem="7IF-O7-lBr" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="Ga7-MY-s3m"/>
+                            <constraint firstItem="PDN-g3-p6d" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="HM3-4p-36q"/>
+                            <constraint firstAttribute="bottom" secondItem="PDN-g3-p6d" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="OhD-f3-f6H"/>
+                            <constraint firstItem="7IF-O7-lBr" firstAttribute="leading" secondItem="RWy-jM-PEL" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="RHv-mv-uBt"/>
+                            <constraint firstAttribute="trailing" secondItem="Kst-jI-8mF" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="SWk-gR-DHN"/>
+                            <constraint firstItem="Kst-jI-8mF" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="WgH-HZ-1wb"/>
+                            <constraint firstItem="7IF-O7-lBr" firstAttribute="baseline" secondItem="RWy-jM-PEL" secondAttribute="baseline" type="default" id="jfd-5e-whZ"/>
+                            <constraint firstAttribute="trailing" secondItem="PDN-g3-p6d" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="lxS-mX-b5k"/>
+                            <constraint firstItem="RWy-jM-PEL" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="u51-7o-L4Q"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="Kst-jI-8mF" id="S2b-WN-1ky"/>
+                        <outlet property="textView" destination="PDN-g3-p6d" id="54M-cV-Mzw"/>
+                        <outlet property="url" destination="YEY-xf-C1d" id="hW3-Ju-jQE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

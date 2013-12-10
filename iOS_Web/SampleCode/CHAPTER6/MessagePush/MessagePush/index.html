@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>MessagePush</title>
+	</head>
+	
+	<body>
+		<form id="form" name="form" method="post" action="./push.php">
+			<p>メッセージ</p>
+			<p>
+			<label>
+				<input name="msg" type="text" id="msg" value=""
+					size="100" maxlength="255">
+					</label>
+			</p>
+			<p>効果音
+			<label>
+				<select name="sound" id="sound">
+					<option value="default" selected="selected">デフォルト</option>
+					<option value="Sound1.aif">Sound1.aif</option>
+					<option value="Sound2.aif">Sound2.aif</option>
+				</select>
+			</label>
+			</p>
+			<p>背景色(16進表記)
+			<label>
+				<input name="color" type="text" id="color" value="FFFFFF"
+					size="6" maxlength="6">
+					</label>
+			</p>
+			<p>
+			<label>
+				<input type="submit" name="button" id="button" value="送信" />
+			</label>
+			</p>
+		</form>
+		
+	</body>
+</html>

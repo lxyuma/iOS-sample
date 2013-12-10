@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+ <key>files</key>
+ <array>
+  <string>/Users/seminar/Documents/iPhone/SearchStation/Classes/SBJsonParser.h</string>
+ </array>
+ <key>diagnostics</key>
+ <array>
+  <dict>
+   <key>path</key>
+   <array>
+    <dict>
+     <key>kind</key><string>event</string>
+     <key>location</key>
+     <dict>
+      <key>line</key><integer>45</integer>
+      <key>col</key><integer>16</integer>
+      <key>file</key><integer>0</integer>
+     </dict>
+     <key>extended_message</key>
+     <string>Instance variable &apos;depth&apos; in class &apos;SBJsonParser&apos; is never used by the methods in its @implementation (although it may be used by category methods)</string>
+     <key>message</key>
+<string>Instance variable &apos;depth&apos; in class &apos;SBJsonParser&apos; is never used by the methods in its @implementation (although it may be used by category methods)</string>
+    </dict>
+   </array>
+   <key>description</key><string>Instance variable &apos;depth&apos; in class &apos;SBJsonParser&apos; is never used by the methods in its @implementation (although it may be used by category methods)</string>
+   <key>category</key><string>Optimization</string>
+   <key>type</key><string>Unused instance variable</string>
+  <key>location</key>
+  <dict>
+   <key>line</key><integer>45</integer>
+   <key>col</key><integer>16</integer>
+   <key>file</key><integer>0</integer>
+  </dict>
+  </dict>
+ </array>
+</dict>
+</plist>

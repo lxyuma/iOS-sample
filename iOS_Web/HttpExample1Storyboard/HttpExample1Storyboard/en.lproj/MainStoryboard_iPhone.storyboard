@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Please Input URL" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="R3L-dx-Q8T">
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="2" id="Eo4-kY-7vO"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="46l-bd-PKI">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="130" id="Ju4-Xt-d9s"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Download Image">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnDownloadImage:" destination="2" eventType="touchUpInside" id="q3g-jb-jVC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uYZ-IY-4AS">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="130" id="Nhv-Ik-ZPZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Download text">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnDownloadText:" destination="2" eventType="touchUpInside" id="USz-Lw-0lK"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S2s-kc-NcS">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="280" id="9u6-GM-6eg"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mxZ-zr-smp">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="ode-jR-IWe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="uYZ-IY-4AS" firstAttribute="baseline" secondItem="46l-bd-PKI" secondAttribute="baseline" type="default" id="1NH-Gp-TCX"/>
+                            <constraint firstItem="mxZ-zr-smp" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="AQe-p0-gfm"/>
+                            <constraint firstAttribute="trailing" secondItem="mxZ-zr-smp" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="G99-Zo-HZJ"/>
+                            <constraint firstItem="S2s-kc-NcS" firstAttribute="top" secondItem="3" secondAttribute="top" constant="115" id="JbH-0m-dh0"/>
+                            <constraint firstItem="R3L-dx-Q8T" firstAttribute="top" secondItem="3" secondAttribute="top" constant="20" symbolic="YES" type="default" id="Jwo-GD-BFK"/>
+                            <constraint firstAttribute="trailing" secondItem="R3L-dx-Q8T" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="RFf-1r-Fzo"/>
+                            <constraint firstItem="S2s-kc-NcS" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="abq-zP-Foi"/>
+                            <constraint firstItem="46l-bd-PKI" firstAttribute="top" secondItem="R3L-dx-Q8T" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="bSB-cP-z3a"/>
+                            <constraint firstItem="R3L-dx-Q8T" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="eXC-Xf-oqM"/>
+                            <constraint firstItem="46l-bd-PKI" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="eeC-1a-glR"/>
+                            <constraint firstAttribute="trailing" secondItem="uYZ-IY-4AS" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="qP5-77-Rqv"/>
+                            <constraint firstAttribute="trailing" secondItem="S2s-kc-NcS" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="qfC-Ug-VEf"/>
+                            <constraint firstAttribute="bottom" secondItem="mxZ-zr-smp" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="rtv-iO-AYa"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="S2s-kc-NcS" id="TRi-eV-Qbx"/>
+                        <outlet property="textView" destination="mxZ-zr-smp" id="LWc-ZT-vWJ"/>
+                        <outlet property="url" destination="R3L-dx-Q8T" id="rDD-zQ-REj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

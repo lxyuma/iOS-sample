@@ -1,0 +1,17 @@
+数字を文字列に変換
+ NSInteger num   =  10;
+ NSString *str1 = [NSString stringWithFormat:@"%d", num];
+ CGFloat flt = 3.14;
+ NSString  *str2 = [NSString stringWithFormat:@"%3.1f", flt];
+                                                ^  ^精度　(この場合、小数点の桁数)
+                                                +---全体の桁数(小数点の . も含む)
+
+
+文字列を数字変換
+ NSInteger num;
+ CGFloat flt;
+ NSString *s1 = @"20";
+ NSString *s2 = @"3.14";
+ 
+ num = [s1 intValue];
+ flt = [s2 floatValue];

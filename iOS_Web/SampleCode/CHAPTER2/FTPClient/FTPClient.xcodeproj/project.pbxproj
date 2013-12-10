@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9BE10FC1347522F00F42333 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9BE10FB1347522F00F42333 /* CFNetwork.framework */; };
+		E9BE11011347595800F42333 /* FTPBrowseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BE10FF1347595800F42333 /* FTPBrowseViewController.m */; };
+		E9BE11021347595800F42333 /* FTPBrowseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9BE11001347595800F42333 /* FTPBrowseViewController.xib */; };
+		E9BE11061347607200F42333 /* TransferViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BE11041347607200F42333 /* TransferViewController.m */; };
+		E9BE11071347607200F42333 /* TransferViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9BE11051347607200F42333 /* TransferViewController.xib */; };
+		E9BE110B1347639500F42333 /* UploadFileChooserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BE11091347639500F42333 /* UploadFileChooserViewController.m */; };
+		E9BE110C1347639500F42333 /* UploadFileChooserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9BE110A1347639500F42333 /* UploadFileChooserViewController.xib */; };
+		E9DE38541344A41800A9E3C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9DE38531344A41800A9E3C9 /* UIKit.framework */; };
+		E9DE38561344A41800A9E3C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9DE38551344A41800A9E3C9 /* Foundation.framework */; };
+		E9DE38581344A41800A9E3C9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9DE38571344A41800A9E3C9 /* CoreGraphics.framework */; };
+		E9DE385E1344A41800A9E3C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9DE385C1344A41800A9E3C9 /* InfoPlist.strings */; };
+		E9DE38611344A41800A9E3C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DE38601344A41800A9E3C9 /* main.m */; };
+		E9DE38641344A41800A9E3C9 /* FTPClientAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DE38631344A41800A9E3C9 /* FTPClientAppDelegate.m */; };
+		E9DE38671344A41800A9E3C9 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9DE38651344A41800A9E3C9 /* MainWindow.xib */; };
+		E9DE386A1344A41800A9E3C9 /* FTPClientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DE38691344A41800A9E3C9 /* FTPClientViewController.m */; };
+		E9DE386D1344A41800A9E3C9 /* FTPClientViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9DE386B1344A41800A9E3C9 /* FTPClientViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E9BE10FB1347522F00F42333 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		E9BE10FE1347595800F42333 /* FTPBrowseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTPBrowseViewController.h; sourceTree = "<group>"; };
+		E9BE10FF1347595800F42333 /* FTPBrowseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTPBrowseViewController.m; sourceTree = "<group>"; };
+		E9BE11001347595800F42333 /* FTPBrowseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FTPBrowseViewController.xib; sourceTree = "<group>"; };
+		E9BE11031347607200F42333 /* TransferViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransferViewController.h; sourceTree = "<group>"; };
+		E9BE11041347607200F42333 /* TransferViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransferViewController.m; sourceTree = "<group>"; };
+		E9BE11051347607200F42333 /* TransferViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransferViewController.xib; sourceTree = "<group>"; };
+		E9BE11081347639500F42333 /* UploadFileChooserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadFileChooserViewController.h; sourceTree = "<group>"; };
+		E9BE11091347639500F42333 /* UploadFileChooserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadFileChooserViewController.m; sourceTree = "<group>"; };
+		E9BE110A1347639500F42333 /* UploadFileChooserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UploadFileChooserViewController.xib; sourceTree = "<group>"; };
+		E9DE384F1344A41700A9E3C9 /* FTPClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FTPClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9DE38531344A41800A9E3C9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E9DE38551344A41800A9E3C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E9DE38571344A41800A9E3C9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E9DE385B1344A41800A9E3C9 /* FTPClient-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FTPClient-Info.plist"; sourceTree = "<group>"; };
+		E9DE385D1344A41800A9E3C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E9DE385F1344A41800A9E3C9 /* FTPClient-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FTPClient-Prefix.pch"; sourceTree = "<group>"; };
+		E9DE38601344A41800A9E3C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9DE38621344A41800A9E3C9 /* FTPClientAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTPClientAppDelegate.h; sourceTree = "<group>"; };
+		E9DE38631344A41800A9E3C9 /* FTPClientAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTPClientAppDelegate.m; sourceTree = "<group>"; };
+		E9DE38661344A41800A9E3C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		E9DE38681344A41800A9E3C9 /* FTPClientViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTPClientViewController.h; sourceTree = "<group>"; };
+		E9DE38691344A41800A9E3C9 /* FTPClientViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTPClientViewController.m; sourceTree = "<group>"; };
+		E9DE386C1344A41800A9E3C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FTPClientViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9DE384C1344A41700A9E3C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9BE10FC1347522F00F42333 /* CFNetwork.framework in Frameworks */,
+				E9DE38541344A41800A9E3C9 /* UIKit.framework in Frameworks */,
+				E9DE38561344A41800A9E3C9 /* Foundation.framework in Frameworks */,
+				E9DE38581344A41800A9E3C9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9DE38441344A41700A9E3C9 = {
+			isa = PBXGroup;
+			children = (
+				E9DE38591344A41800A9E3C9 /* FTPClient */,
+				E9DE38521344A41700A9E3C9 /* Frameworks */,
+				E9DE38501344A41700A9E3C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9DE38501344A41700A9E3C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9DE384F1344A41700A9E3C9 /* FTPClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9DE38521344A41700A9E3C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9BE10FB1347522F00F42333 /* CFNetwork.framework */,
+				E9DE38531344A41800A9E3C9 /* UIKit.framework */,
+				E9DE38551344A41800A9E3C9 /* Foundation.framework */,
+				E9DE38571344A41800A9E3C9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9DE38591344A41800A9E3C9 /* FTPClient */ = {
+			isa = PBXGroup;
+			children = (
+				E9DE38621344A41800A9E3C9 /* FTPClientAppDelegate.h */,
+				E9DE38631344A41800A9E3C9 /* FTPClientAppDelegate.m */,
+				E9DE38651344A41800A9E3C9 /* MainWindow.xib */,
+				E9DE38681344A41800A9E3C9 /* FTPClientViewController.h */,
+				E9DE38691344A41800A9E3C9 /* FTPClientViewController.m */,
+				E9DE386B1344A41800A9E3C9 /* FTPClientViewController.xib */,
+				E9DE385A1344A41800A9E3C9 /* Supporting Files */,
+				E9BE10FE1347595800F42333 /* FTPBrowseViewController.h */,
+				E9BE10FF1347595800F42333 /* FTPBrowseViewController.m */,
+				E9BE11001347595800F42333 /* FTPBrowseViewController.xib */,
+				E9BE11031347607200F42333 /* TransferViewController.h */,
+				E9BE11041347607200F42333 /* TransferViewController.m */,
+				E9BE11051347607200F42333 /* TransferViewController.xib */,
+				E9BE11081347639500F42333 /* UploadFileChooserViewController.h */,
+				E9BE11091347639500F42333 /* UploadFileChooserViewController.m */,
+				E9BE110A1347639500F42333 /* UploadFileChooserViewController.xib */,
+			);
+			path = FTPClient;
+			sourceTree = "<group>";
+		};
+		E9DE385A1344A41800A9E3C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9DE385B1344A41800A9E3C9 /* FTPClient-Info.plist */,
+				E9DE385C1344A41800A9E3C9 /* InfoPlist.strings */,
+				E9DE385F1344A41800A9E3C9 /* FTPClient-Prefix.pch */,
+				E9DE38601344A41800A9E3C9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9DE384E1344A41700A9E3C9 /* FTPClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9DE38701344A41800A9E3C9 /* Build configuration list for PBXNativeTarget "FTPClient" */;
+			buildPhases = (
+				E9DE384B1344A41700A9E3C9 /* Sources */,
+				E9DE384C1344A41700A9E3C9 /* Frameworks */,
+				E9DE384D1344A41700A9E3C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FTPClient;
+			productName = FTPClient;
+			productReference = E9DE384F1344A41700A9E3C9 /* FTPClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9DE38461344A41700A9E3C9 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = E9DE38491344A41700A9E3C9 /* Build configuration list for PBXProject "FTPClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E9DE38441344A41700A9E3C9;
+			productRefGroup = E9DE38501344A41700A9E3C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9DE384E1344A41700A9E3C9 /* FTPClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9DE384D1344A41700A9E3C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9DE385E1344A41800A9E3C9 /* InfoPlist.strings in Resources */,
+				E9DE38671344A41800A9E3C9 /* MainWindow.xib in Resources */,
+				E9DE386D1344A41800A9E3C9 /* FTPClientViewController.xib in Resources */,
+				E9BE11021347595800F42333 /* FTPBrowseViewController.xib in Resources */,
+				E9BE11071347607200F42333 /* TransferViewController.xib in Resources */,
+				E9BE110C1347639500F42333 /* UploadFileChooserViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9DE384B1344A41700A9E3C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9DE38611344A41800A9E3C9 /* main.m in Sources */,
+				E9DE38641344A41800A9E3C9 /* FTPClientAppDelegate.m in Sources */,
+				E9DE386A1344A41800A9E3C9 /* FTPClientViewController.m in Sources */,
+				E9BE11011347595800F42333 /* FTPBrowseViewController.m in Sources */,
+				E9BE11061347607200F42333 /* TransferViewController.m in Sources */,
+				E9BE110B1347639500F42333 /* UploadFileChooserViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E9DE385C1344A41800A9E3C9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9DE385D1344A41800A9E3C9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E9DE38651344A41800A9E3C9 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9DE38661344A41800A9E3C9 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		E9DE386B1344A41800A9E3C9 /* FTPClientViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9DE386C1344A41800A9E3C9 /* en */,
+			);
+			name = FTPClientViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9DE386E1344A41800A9E3C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E9DE386F1344A41800A9E3C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		E9DE38711344A41800A9E3C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FTPClient/FTPClient-Prefix.pch";
+				INFOPLIST_FILE = "FTPClient/FTPClient-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E9DE38721344A41800A9E3C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FTPClient/FTPClient-Prefix.pch";
+				INFOPLIST_FILE = "FTPClient/FTPClient-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9DE38491344A41700A9E3C9 /* Build configuration list for PBXProject "FTPClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9DE386E1344A41800A9E3C9 /* Debug */,
+				E9DE386F1344A41800A9E3C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9DE38701344A41800A9E3C9 /* Build configuration list for PBXNativeTarget "FTPClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9DE38711344A41800A9E3C9 /* Debug */,
+				E9DE38721344A41800A9E3C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9DE38461344A41700A9E3C9 /* Project object */;
+}
